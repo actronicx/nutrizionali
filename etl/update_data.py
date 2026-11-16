@@ -62,9 +62,9 @@ CAT_REGEX = [
     ("metabolici", r"afenil|\bpku\b|msud|anamix|lophlex|\bxp\b|\bzero\b|\btvmi|\bvil\b|phlexy|glytactin|easiphen|\btyr|\bhcu|\bucd|\beaa\b|\bgmp\b|keto|k\.? ?vita|dkx|\bx ?(phe|met|mtvi|lys|leu|cys|ptyr)|xmtvi|maxamaid|maxamum|antifen|harifen|\bga\b|\biva\b|vitaflo - (hcu|tyr|msud|pku|gel)|\bhom\b|\bmma|\bleu\b|milupa|sineamin|tylactin|phenylalanin|glycin\d|plus8|\blnaa|\bmsud|\bpa\b|\btvmi|\bilv\b"),
     ("ipoproteici", r"aprot|apro|ipoprot|low ?protein|loprofin|\bamino'|promin|taranis|my snack|bonami|eggz|\bbiscott|\bpasta\b|\bpane\b|piadin|grissin|crostat|\bfette\b|\bsnack"),
     ("reidratanti", r"reid|idra(?!ta)|dral\b|hydra(?!fruit)|\bors\b|reidrat|idraton|neoidra"),
-    ("addensanti", r"addens|thick|gelific|acquagel|aquasure|nutilis|(?<!soft-)\bgel\b|resource instant|acqua gel|hydrafruit|dysph|disfag|nutridens|livello [1-5]\b|gourmed|textur"),
+    ("addensanti", r"addens|thick|gelific|acquagel|aquasure|nutilis|(?<!soft-)\bgel\b|acqua gel|hydrafruit|dysph|disfag|nutridens|livello [1-5]\b|gourmed|textur"),
     ("formule_infanzia", r"infatrini|neocate|nutramigen|alfar[eé]|pregestimil|alfamino|puramino|aptamil|allernova|alth[eé]ra|sinelac|\binfant|\blatte\b|\bbaby|fortifier|\bfm ?85|pediasure|fortini|\bjunior|\bkid|\bar\b|\bmilk\b|humana|hipp|mellin|plasmon|nidina|novalac"),
-    ("moduli", r"calogen|polycal|fantomalt|protifar|maxijul|duocal|liquigen|\bmct\b|modul|maltodestrin|proteine in polvere|\bprotein powder|renapro|\badpro|protein ?\+? ?plus powder|resource protein instant|vitaflo|calorinut|protipulse|sugarmix|carbolip|dispolipid|\boil\b|olio|richoil|\bdha\b|\bsucrosy"),
+    ("moduli", r"calogen|polycal|fantomalt|protifar|maxijul|duocal|liquigen|\bmct\b|modul|maltodestrin|proteine in polvere|\bprotein powder|renapro|\badpro|protein ?\+? ?plus powder|resource protein instant|instant protein|vitaflo|calorinut|protipulse|sugarmix|carbolip|dispolipid|\boil\b|olio|richoil|\bdha\b|\bsucrosy"),
     ("formule_enterali", r"nutrison|jevity|osmolite|isosource|novasource|sondalis|nutricomp|survimed|diason|easy ?bag|nutrini|frebini|\bsonda|\btube|peptisorb|peptamen|\bhn\b|\b(500|1000|1500) ?ml|\bsp\b|smartflex|pack"),
     ("ons", r"fortimel|nutridrink|ensure|resource|clinutren|meritene|fresubin|drink|compact|shake|energy|\bhp\b|cr[eè]me|dessert|pudding|forticare|cubitan|diasip|glucerna|impact|supportan|prosure|abound|arginaid|scandishake|renutryl|protein"),
 ]
@@ -97,6 +97,10 @@ HTTP.mount("https://www.salute.gov.it", _LegacyTLS())
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", s or "")
     return "".join(c for c in s if not unicodedata.combining(c)).lower().strip()
+
+
+def slug(s: str, n: int = 48) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", norm(s)).strip("-")[:n]
 
 
 def log(*a):
@@ -259,7 +263,7 @@ def load_afms(cache):
         n = norm(nome)
         cat = next((c for c, rx in CAT_REGEX if re.search(rx, n)), "altri_afms")
         out.append({
-            "id": f"E-{r['codice']}-{len(out)}",
+            "id": f"E-{r['codice']}-{slug(nome)}",  # stabile: codice registro + nome
             "tipo": "enterale",
             "nome": nome,
             "azienda": az,
@@ -330,6 +334,61 @@ def load_dispositivi(cache):
     return out
 
 
+# ---------------------------------------------------------------- VERIFICHE
+VERIFICHE_FILE = ROOT / "etl" / "verifiche.json"
+
+
+def apply_verifiche(products):
+    """Applica le verifiche su scheda tecnica (etl/verifiche.json).
+
+    esito "verificato"         -> le patologie del prodotto diventano quelle confermate dalla scheda
+    esito "scheda_non_trovata" -> restano le patologie automatiche, con avviso
+    nessuna verifica           -> "da_verificare" (enterali/parenterali) o "cnd" (dispositivi)
+    """
+    if not VERIFICHE_FILE.exists():
+        return {}
+    ver = {v["chiave"]: v for v in json.loads(VERIFICHE_FILE.read_text(encoding="utf-8"))["verifiche"]}
+    # esito del ricontrollo settimanale delle fonti (etl/verifica.py ricontrolla)
+    cambiate = {}
+    ric = OUT_DIR / "ricontrollo.json"
+    if ric.exists():
+        for e in json.loads(ric.read_text(encoding="utf-8"))["esiti"]:
+            if e["stato"] == "citazione non più presente":
+                cambiate[e["chiave"]] = e
+    ids = {p["id"] for p in products}
+    stats = defaultdict(int)
+    for pr in products:
+        v = ver.get(pr["id"])
+        if not v:
+            pr["verifica"] = {"esito": "cnd" if pr["tipo"] == "dispositivo" else "da_verificare"}
+            stats[pr["verifica"]["esito"]] += 1
+            continue
+        auto = list(pr["patologie"])
+        if v["esito"] == "verificato" and pr["id"] in cambiate:
+            # la fonte non contiene più la frase citata: la verifica decade finché non viene ripetuta
+            v = dict(v, esito="fonte_cambiata", note="La fonte non contiene più la frase citata nella verifica: da riverificare.")
+        if v["esito"] == "verificato":
+            pr["patologie"] = list(v["patologie"])
+            pr["pat_specifiche"] = list(v["patologie"])
+            tolte = [x for x in auto if x not in v["patologie"]]
+            aggiunte = [x for x in v["patologie"] if x not in auto]
+        else:
+            tolte, aggiunte = [], []
+        pr["verifica"] = {k: v[k] for k in ("esito", "fonte", "tipo_fonte", "citazione", "altre_citazioni", "data", "verificatore", "note") if v.get(k)}
+        if tolte:
+            pr["verifica"]["corrette_tolte"] = tolte
+        if aggiunte:
+            pr["verifica"]["corrette_aggiunte"] = aggiunte
+        stats[v["esito"]] += 1
+    orfane = [k for k in ver if k not in ids]
+    if orfane:
+        # prodotto rinominato o uscito dal registro: la verifica non si applica più
+        log(f"ATTENZIONE: {len(orfane)} verifiche senza prodotto corrispondente:", ", ".join(orfane[:10]))
+    stats["orfane"] = len(orfane)
+    log("verifiche:", dict(stats))
+    return dict(stats)
+
+
 # ---------------------------------------------------------------- PATOLOGIE
 def assign_patologie(products):
     pats = RULES["patologie"]
@@ -346,6 +405,7 @@ def assign_patologie(products):
     manual = RULES.get("manuali", {})
     for pr in products:
         n = norm(pr["nome"])
+        pr.pop("pat_specifiche", None)
         found, strong = [], []
         for pid, rx, cats, cnds, atcs, nome_par, excl in compiled:
             ok = False
@@ -398,10 +458,12 @@ def main():
             sources[name] = {"aggiornato": "non aggiornato", "n": len(old), "errore": str(e)}
 
     assign_patologie(products)
+    stats_ver = apply_verifiche(products)
     patologie = [{k: p[k] for k in ("id", "nome", "sinonimi", "descrizione")} for p in RULES["patologie"]]
     data = {
         "generato": dt.datetime.now().isoformat(timespec="minutes"),
         "fonti": sources,
+        "verifiche": stats_ver,
         "patologie": patologie,
         "prodotti": products,
     }

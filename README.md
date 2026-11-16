@@ -31,11 +31,36 @@ I prodotti riconosciuti dal nome sono mostrati per primi. Dopo ogni modifica all
 
 > ⚠️ Le associazioni sono indicative e non sostituiscono la scheda tecnica né la valutazione clinica. Prima di un uso clinico è consigliata una revisione da parte di un dietista o di un farmacista.
 
+## Verifica dei prodotti su scheda tecnica
+
+Ogni prodotto ha uno stato visibile nell'app:
+
+| Stato | Significato |
+|---|---|
+| ✓ **Verificato** | Le indicazioni sono state confrontate con la scheda tecnica o la pagina ufficiale. Nel dettaglio compaiono la **frase citata testualmente**, il link alla fonte, il tipo di fonte (produttore o rivenditore), la data e le eventuali correzioni rispetto all'assegnazione automatica. |
+| ⚠ **Scheda non trovata** | Nessuna fonte affidabile trovata online (la nota spiega cosa è stato cercato). Restano le indicazioni automatiche. |
+| ⚠ **Fonte cambiata** | Il ricontrollo settimanale non trova più la frase citata nella fonte: la verifica decade finché non viene ripetuta. |
+| ⚠ **Da verificare** | Prodotto non ancora esaminato. |
+| **Classe CND** | Dispositivi medici: l'indicazione deriva dalla classificazione nazionale CND, non dal singolo prodotto. |
+
+Strumenti:
+
+- `etl/verifica.py estrai URL` estrae da una pagina o da un PDF le frasi sulle indicazioni.
+- `etl/registra_verifica.py lotto.json` registra gli esiti in `etl/verifiche.json` e **rifiuta ogni citazione che non compare testualmente nella fonte**, così nessuna citazione può essere parafrasata o inventata.
+- `etl/verifica.py ricontrolla` (gira ogni settimana nel workflow) riscarica le fonti e segnala le citazioni sparite.
+
+Regole adottate: si preferisce la fonte del produttore; una fonte di un rivenditore è accettata solo se riporta l'indicazione del prodotto ed è segnalata come fonte secondaria. Una fonte relativa a un altro gusto della stessa linea è accettata e annotata. Se il nome trovato non coincide con quello del registro, il prodotto **non** viene dato per verificato.
+
+Le verifiche attuali sono state eseguite da Claude (IA) confrontando il testo delle fonti. Per un uso clinico è raccomandata una revisione a campione da parte di un dietista o di un farmacista.
+
 ## Struttura
 
 ```
 etl/update_data.py     scarica le 3 fonti, normalizza, assegna categorie e patologie
 etl/patologie.json     regole patologie (modificabili)
+etl/verifiche.json     verifiche su scheda tecnica (citazione, fonte, esito)
+etl/verifica.py        estrazione frasi dalle fonti e ricontrollo settimanale
+etl/registra_verifica.py  registrazione verifiche con controllo della citazione
 web/index.html         app (HTML/CSS/JS statici, nessun server necessario)
 web/data/products.json banca dati generata
 .github/workflows/     aggiornamento automatico settimanale + pubblicazione su GitHub Pages

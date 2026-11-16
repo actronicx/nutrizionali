@@ -76,7 +76,7 @@
     const pat = state.pat ? PAT[state.pat] : matchPatologia(q);
     let res = [];
     if (pat) {
-      res = DB.prodotti.filter((p) => p.patologie.includes(pat.id)).map((p) => ({ p, s: p.pat_specifiche?.includes(pat.id) ? 2 : 1 }));
+      res = DB.prodotti.filter((p) => p.patologie.includes(pat.id)).map((p) => ({ p, s: (p.pat_specifiche?.includes(pat.id) ? 2 : 1) + (p.verifica?.esito === "verificato" ? 0.5 : 0) }));
       // aggiungi anche corrispondenze testuali dirette (es. nome prodotto contenente il termine)
       if (qt.length && !state.pat) {
         const ids = new Set(res.map((r) => r.p.id));
@@ -129,6 +129,10 @@
         (catList.length > visibili.length ? `<button class="chip more-cats" data-allcats="1">+ altre ${catList.length - visibili.length}</button>` : "")
       : "";
     if (state.cat) list = list.filter((p) => p.categoria === state.cat);
+    const nVer = list.filter((p) => p.verifica?.esito === "verificato").length;
+    if (nVer) $("#filters").insertAdjacentHTML("afterbegin",
+      `<button class="chip ver ${state.soloVer ? "on" : ""}" data-sover="1">✓ Solo verificati<span class="n">${nVer}</span></button>`);
+    if (state.soloVer) list = list.filter((p) => p.verifica?.esito === "verificato");
 
     $("#count").textContent = list.length
       ? `${list.length.toLocaleString("it-IT")} ${list.length === 1 ? "risultato" : "risultati"}${pat ? ` indicati per «${pat.nome}»` : ""}`
@@ -149,12 +153,49 @@
       ? `<button class="tag ${pat && pat.id === id ? "hit" : ""}" data-pat="${id}">${esc(short(PAT[id].nome))}</button>` : "").join("");
     const open = state.open === p.id;
     return `<li class="item">
-      <div class="crumb"><span class="badge ${p.tipo}">${tipoLbl}</span><span>${esc(p.categoria)}</span></div>
+      <div class="crumb"><span class="badge ${p.tipo}">${tipoLbl}</span>${statoBadge(p)}<span class="cat">${esc(p.categoria)}</span></div>
       <h3><button data-open="${esc(p.id)}" aria-expanded="${open}">${esc(p.nome)}</button></h3>
       <div class="az">${esc(p.azienda)}</div>
       ${tags ? `<div class="tags">${tags}</div>` : ""}
       ${open ? detail(p) : ""}
     </li>`;
+  }
+
+  const STATI = {
+    verificato: ["ok", "✓ Verificato"],
+    scheda_non_trovata: ["warn", "⚠ Scheda non trovata"],
+    fonte_cambiata: ["warn", "⚠ Fonte cambiata"],
+    da_verificare: ["warn", "⚠ Da verificare"],
+    cnd: ["info", "Classe CND"],
+  };
+  function statoBadge(p) {
+    const [cls, lbl] = STATI[p.verifica?.esito] || STATI.da_verificare;
+    const tip = { ok: "Indicazioni confrontate con la scheda tecnica o la pagina ufficiale del prodotto",
+      warn: "Indicazioni assegnate automaticamente, non ancora confrontate con la scheda tecnica",
+      info: "Indicazione dedotta dalla classificazione CND ufficiale del dispositivo" }[cls];
+    return `<span class="stato ${cls}" title="${tip}">${lbl}</span>`;
+  }
+
+  function verificaBox(p) {
+    const v = p.verifica || { esito: "da_verificare" };
+    if (v.esito === "cnd") {
+      return `<div class="verifica info"><b>Indicazione per classe CND.</b> L'associazione alla patologia deriva dalla classificazione nazionale dei dispositivi medici (CND ${esc(p.cnd)}), non dal singolo prodotto.</div>`;
+    }
+    if (v.esito === "verificato") {
+      const fonteLbl = v.tipo_fonte === "produttore" ? "fonte del produttore" : "fonte secondaria (rivenditore)";
+      const cit = [v.citazione, ...(v.altre_citazioni || [])].map((c) => `<blockquote>«${esc(c)}»</blockquote>`).join("");
+      const corr = [
+        v.corrette_tolte?.length ? `rimosse: ${v.corrette_tolte.map((id) => esc(PAT[id]?.nome || id)).join(", ")}` : "",
+        v.corrette_aggiunte?.length ? `aggiunte: ${v.corrette_aggiunte.map((id) => esc(PAT[id]?.nome || id)).join(", ")}` : "",
+      ].filter(Boolean).join(" · ");
+      let host = ""; try { host = new URL(v.fonte).hostname.replace(/^www\./, ""); } catch (_) {}
+      return `<div class="verifica ok"><b>✓ Verificato sulla ${fonteLbl}</b>${cit}
+        <div class="meta"><a href="${esc(v.fonte)}" target="_blank" rel="noopener">${esc(host)} ↗</a> · ${esc(v.verificatore || "")} · ${esc(v.data || "")}</div>
+        ${corr ? `<div class="meta">Correzioni rispetto all'assegnazione automatica: ${corr}</div>` : ""}
+        ${v.note ? `<div class="meta">Nota: ${esc(v.note)}</div>` : ""}</div>`;
+    }
+    const why = v.esito === "da_verificare" ? "Prodotto non ancora confrontato con la scheda tecnica." : (v.note || "Nessuna scheda tecnica trovata online.");
+    return `<div class="verifica warn"><b>⚠ Indicazioni non verificate.</b> ${esc(why)} Le patologie mostrate sono assegnate automaticamente in base al nome e alla categoria: controllare la scheda tecnica prima dell'uso.</div>`;
   }
 
   function detail(p) {
@@ -179,8 +220,9 @@
       html += row("Codici catalogo", esc(p.codici.slice(0, 20).join(", ") + (p.codici.length > 20 ? ` … (+${p.codici.length - 20})` : "")));
     }
     const pats = p.patologie.map((id) => PAT[id] && esc(PAT[id].nome)).filter(Boolean).join(" · ");
-    html += row("Indicazioni (indicative)", pats || "—");
+    html += row(p.verifica?.esito === "verificato" ? "Indicazioni (verificate)" : "Indicazioni (indicative)", pats || "—");
     html += "</dl>";
+    html += verificaBox(p);
     if (p.confezioni?.length) {
       html += `<table><thead><tr><th>AIC</th><th>Confezione</th><th>Classe</th><th>Prezzo</th></tr></thead><tbody>` +
         p.confezioni.map((c) => `<tr><td>${esc(c.aic)}</td><td>${esc(c.descr)}</td><td>${esc(c.classe || "–")}</td><td>${c.prezzo && c.prezzo !== "-" ? "€ " + esc(c.prezzo) : "–"}</td></tr>`).join("") +
@@ -198,7 +240,7 @@
     el.hidden = false;
     el.innerHTML = `
       <h2>${esc(pat.nome)}</h2>
-      <div class="sub">Patologia · ${res.length.toLocaleString("it-IT")} prodotti indicati</div>
+      <div class="sub">Patologia · ${res.length.toLocaleString("it-IT")} prodotti indicati${(() => { const n = res.filter((p) => p.verifica?.esito === "verificato").length; return n ? ` · <button class="link-ver" data-sover="1">${n} verificati su scheda</button>` : ""; })()}</div>
       <p>${esc(pat.descrizione)}</p>
       <div class="split">
         <button data-tipo="enterale"><strong>${byTipo.enterale}</strong><span>Enterale</span></button>
@@ -309,9 +351,10 @@
 
   // ------------------------------------------------------------------ eventi
   document.addEventListener("click", (e) => {
-    const t = e.target.closest("[data-pat],[data-tipo],[data-cat],[data-open],[data-allcats],#more,#logo-home");
+    const t = e.target.closest("[data-pat],[data-tipo],[data-cat],[data-open],[data-allcats],[data-sover],#more,#logo-home");
     if (!t) return;
     if (t.dataset.allcats) { state.allCats = true; render(); return; }
+    if (t.dataset.sover) { state.soloVer = !state.soloVer; state.shown = PAGE; render(); return; }
     if (t.id === "logo-home") { e.preventDefault(); go({}); return; }
     if (t.id === "more") { state.shown += PAGE; render(); return; }
     if (t.dataset.open) { state.open = state.open === t.dataset.open ? null : t.dataset.open; render(); return; }

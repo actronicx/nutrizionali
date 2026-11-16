@@ -1,0 +1,473 @@
+{
+ "data": "2026-11-16",
+ "esiti": [
+  {
+   "chiave": "E-10915-gel-clear",
+   "prodotto": "GEL'CLEAR",
+   "fonte": "https://www.soin-et-nature.com/it/29187-nutrisens-gel-clear-polvere-addensante-240g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-12341-nutilis-complete-vari-gusti",
+   "prodotto": "Nutilis Complete vari gusti",
+   "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-13336-hydrafruit-zuccherata-livello-3-ananas",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 3 ANANAS",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-13337-hydrafruit-edulcorata-livello-3-frutti-rossi",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 3 FRUTTI ROSSI",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-135-fresubin-2-kcal-creme-gusti-cappuccino-fragola-d",
+   "prodotto": "Fresubin 2 kcal creme - gusti: cappuccino, fragola di bosco",
+   "fonte": "https://www.fresenius-kabi.com/gb/healthcare-professional-area/clinical-nutrition/enteral-nutrition/dysphagia-products/fresubin-2kcal-creme",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16057-resource-aqua-gelificata",
+   "prodotto": "RESOURCE AQUA+ GELIFICATA",
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource-aqua/AQUA",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16780-am-gel-cup-vari-gusti",
+   "prodotto": "AM GEL CUP VARI GUSTI",
+   "fonte": "https://dmffoodar.it/prodotto/am-gel-cup-zucchero/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-17293-delical-creme-dessert-hp-hc-vari-gusti",
+   "prodotto": "DELICAL CREME DESSERT HP-HC VARI GUSTI",
+   "fonte": "https://dmffoodar.it/prodotto/delical-creme/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19609-nutilis-aqua-gel-essential",
+   "prodotto": "Nutilis Aqua Gel Essential",
+   "fonte": "https://farmaciaigea.com/nutilis-aqua-gel-ara-4pz",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19612-ensure-multi-thick",
+   "prodotto": "Ensure Multi-thick",
+   "fonte": "https://farmaciaigea.com/ensure-multi-thick-250g",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19665-dysphameal-gusto-frittata",
+   "prodotto": "DYSPHAMEAL - GUSTO FRITTATA",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19667-dysphameal-gusto-manzo-brasato",
+   "prodotto": "DYSPHAMEAL - GUSTO MANZO BRASATO",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19668-dysphameal-gusto-minestrone-di-verdure",
+   "prodotto": "DYSPHAMEAL - GUSTO MINESTRONE DI VERDURE",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19671-dysphameal-gusto-polenta-e-gorgonzola",
+   "prodotto": "DYSPHAMEAL - GUSTO POLENTA E GORGONZOLA",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19672-dysphameal-gusto-prosciutto-cotto-e-ricotta",
+   "prodotto": "DYSPHAMEAL - GUSTO PROSCIUTTO COTTO E RICOTTA",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19673-dysphameal-gusto-risotto-ai-funghi",
+   "prodotto": "DYSPHAMEAL - GUSTO RISOTTO AI FUNGHI",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19674-dysphameal-gusto-risotto-allo-zafferano",
+   "prodotto": "DYSPHAMEAL - GUSTO RISOTTO ALLO ZAFFERANO",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19675-dysphameal-gusto-fungo",
+   "prodotto": "DYSPHAMEAL - GUSTO FUNGO",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19676-dysphameal-gusto-piselli-e-pancetta",
+   "prodotto": "DYSPHAMEAL - GUSTO PISELLI E PANCETTA",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19677-dysphameal-gusto-porro-e-patate",
+   "prodotto": "DYSPHAMEAL - GUSTO PORRO E PATATE",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19678-dysphameal-gusto-pure",
+   "prodotto": "DYSPHAMEAL - GUSTO PURÉ",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19679-dysphameal-gusto-torta-al-limone",
+   "prodotto": "DYSPHAMEAL - GUSTO TORTA AL LIMONE",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19680-dysphameal-gusto-pomodoro-e-basilico",
+   "prodotto": "DYSPHAMEAL - GUSTO POMODORO E BASILICO",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19681-dysphameal-gusto-cheesecake-ai-mirtilli",
+   "prodotto": "DYSPHAMEAL - GUSTO CHEESECAKE AI MIRTILLI",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19682-dysphameal-gusto-torta-al-cioccolato",
+   "prodotto": "DYSPHAMEAL - GUSTO TORTA AL CIOCCOLATO",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19699-dysphameal-gusto-creme-caramel",
+   "prodotto": "DYSPHAMEAL - GUSTO CREME CARAMEL",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-197-thicken-up-junior",
+   "prodotto": "THICKEN UP JUNIOR",
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/resource-thicken-up-junior",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19700-dysphameal-gusto-crema-ai-formaggi",
+   "prodotto": "DYSPHAMEAL - GUSTO CREMA AI FORMAGGI",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19701-dysphameal-gusto-pollo-ai-funghi",
+   "prodotto": "DYSPHAMEAL - GUSTO POLLO AI FUNGHI",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19702-dysphameal-gusto-carota",
+   "prodotto": "DYSPHAMEAL - GUSTO CAROTA",
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19729-meritene-pure-instant-crema-di-patate",
+   "prodotto": "MERITENE PURE' INSTANT - CREMA DI PATATE",
+   "fonte": "https://www.1000farmacie.it/meritene-pure-instant-vit-ver.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19732-acqua-gelificata-edulcorata-aquasure-125g-vari-g",
+   "prodotto": "Acqua gelificata edulcorata Aquasure 125g vari gusti",
+   "fonte": "https://www.1000farmacie.it/aquasure-acqua-gelificata-edulcorata-arancia-24-x-125-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19733-thicken-up-protein-shake",
+   "prodotto": "THICKEN UP PROTEIN SHAKE",
+   "fonte": "https://www.nestlehealthscience.it/prodotti/thicken-up/protein-shake",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19826-cremeline-2kcal-vari-gusti",
+   "prodotto": "CREMELINE 2KCAL VARI GUSTI",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/137693--nutrisens-cremeline-2kcal-dessert-ipercalorico-gusto-caffe-4x125gr-3701052008361.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19829-cremeline-sl-vari-gusti",
+   "prodotto": "CREMELINE SL VARI GUSTI",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/44458-cremeline-senza-lattosio-crema-per-deglutire-alla-vaniglia-4-x-125g-3401252050893.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19830-cremeline-sl-cioccolato",
+   "prodotto": "CREMELINE SL CIOCCOLATO",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/44458-cremeline-senza-lattosio-crema-per-deglutire-alla-vaniglia-4-x-125g-3401252050893.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20161-hydrafruit-edulcorata-livello-4-albicocca",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 ALBICOCCA",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20162-hydrafruit-edulcorata-livello-4-limone",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 LIMONE",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20163-hydrafruit-edulcorata-livello-4-frutti-rossi",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 FRUTTI ROSSI",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20164-hydrafruit-edulcorata-livello-4-mela",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 MELA",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20165-hydrafruit-zuccherata-livello-4-albicocca",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 ALBICOCCA",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20166-hydrafruit-zuccherata-livello-4-limone",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 LIMONE",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20167-hydrafruit-zuccherata-livello-4-frutti-rossi",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 FRUTTI ROSSI",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20168-hydrafruit-zuccherata-livello-4-mela",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 MELA",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20170-hydrafruit-zuccherata-livello-3-limone",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 3 LIMONE",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20193-thicken-up-fizzy",
+   "prodotto": "THICKEN UP FIZZY",
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/resource-ThickenUp-fizzy",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20197-hydrafruit-edulcorata-livello-3-multifrutto",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 3 MULTIFRUTTO",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20198-hydrafruit-edulcorata-livello-4-multifrutto",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 MULTIFRUTTO",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20199-hydrafruit-zuccherata-livello-4-multifrutto",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 MULTIFRUTTO",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20212-cremeline-2kcal-gourmande-vari-gusti",
+   "prodotto": "CREMELINE 2KCAL GOURMANDE VARI GUSTI",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/137693--nutrisens-cremeline-2kcal-dessert-ipercalorico-gusto-caffe-4x125gr-3701052008361.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20222-acqua-gelificata-edulcorata-multifrutto",
+   "prodotto": "ACQUA GELIFICATA EDULCORATA MULTIFRUTTO",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/79914-acqua-gel-pack-acqua-gelificata-edulcorata-mela-12-x-125-ml-3701052000662.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20223-acqua-gelificata-zuccherata-multifrutto",
+   "prodotto": "ACQUA GELIFICATA ZUCCHERATA MULTIFRUTTO",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/129656-acqua-gel-pack-acqua-gelificata-zuccherata-arancia-12-x-125-ml-3701052004493.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20247-dysphameal-menu-arancio",
+   "prodotto": "DYSPHAMEAL - MENÙ ARANCIO",
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20248-dysphameal-menu-giallo",
+   "prodotto": "DYSPHAMEAL - MENÙ GIALLO",
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20249-dysphameal-menu-rosso",
+   "prodotto": "DYSPHAMEAL - MENÙ ROSSO",
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20250-dysphameal-menu-verde",
+   "prodotto": "DYSPHAMEAL - MENÙ VERDE",
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20251-dysphameal-menu-viola",
+   "prodotto": "DYSPHAMEAL - MENÙ VIOLA",
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20266-thick-n-instant",
+   "prodotto": "THICK-N INSTANT",
+   "fonte": "https://errekappa.it/prodotti/thick-n-instant/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20464-hydrafruit-1-kg-zuccherata-livello-4-frutti-ross",
+   "prodotto": "HYDRAFRUIT 1 KG ZUCCHERATA LIVELLO 4 FRUTTI ROSSI",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20465-hydrafruit-1-kg-zuccherata-livello-4-limone",
+   "prodotto": "HYDRAFRUIT 1 KG ZUCCHERATA LIVELLO 4 LIMONE",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2428-fortimel-creme-vari-gusti",
+   "prodotto": "Fortimel Creme vari gusti",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/72204-nutricia-fortimel-creme-gusto-cioccolato-125g-4-pezzi-8716900569340.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2929-resource-thicken-up",
+   "prodotto": "RESOURCE THICKEN UP",
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/resource-Thicken-Up",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-3881-delical-creme-dessert-hp-hc-la-floridine-vari-gu",
+   "prodotto": "DELICAL CREME DESSERT HP HC LA FLORIDINE VARI GUSTI",
+   "fonte": "https://dmffoodar.it/prodotto/delical-la-floridine/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-4816-acqua-gelificata-edulcorata-vari-gusti",
+   "prodotto": "Acqua Gelificata Edulcorata vari gusti",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/79914-acqua-gel-pack-acqua-gelificata-edulcorata-mela-12-x-125-ml-3701052000662.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-53-delical-creme-dessert-hp-hc-la-floridine-gusto-c",
+   "prodotto": "DELICAL CREME DESSERT HP HC LA FLORIDINE GUSTO CIOCCOLATO",
+   "fonte": "https://dmffoodar.it/prodotto/delical-la-floridine/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-55-aminoglutam-gel",
+   "prodotto": "AMINOGLUTAM gel",
+   "fonte": "https://errekappa.it/prodotti/aminoglutam-gel/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-5596-acqua-gelificata-zuccherata-vari-gusti",
+   "prodotto": "Acqua gelificata zuccherata vari gusti",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/129656-acqua-gel-pack-acqua-gelificata-zuccherata-arancia-12-x-125-ml-3701052004493.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-57-aminotrofic-gel",
+   "prodotto": "Aminotrofic gel",
+   "fonte": "https://errekappa.it/prodotti/aminotrofic-gel/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6334-nutilis-acqua-gel-vari-gusti",
+   "prodotto": "Nutilis Acqua Gel vari gusti",
+   "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6695-gel-ami",
+   "prodotto": "GEL AMI",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/208648-gel-ami-addensante-neutro-barattolo-300-g-3701052000723.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-7173-resource-thicken-up-clear",
+   "prodotto": "RESOURCE THICKEN UP CLEAR",
+   "fonte": "https://nestlehealthscience.co.uk/brands/resource-dysphagia/resource-thickenup-clear",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-7256-acquagel-polvere-vari-gusti",
+   "prodotto": "ACQUAGEL POLVERE VARI GUSTI",
+   "fonte": "https://dmffoodar.it/prodotto/acquagel-polvere/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8287-resource-instant-protein",
+   "prodotto": "RESOURCE INSTANT PROTEIN",
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/instant-protein",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8458-nutilis-clear",
+   "prodotto": "Nutilis Clear",
+   "fonte": "https://www.direct.nutricia.it/rest/files/2023/09/13/280729.pdf",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8952-cremeline-senza-lattosio-caramello",
+   "prodotto": "CREMELINE SENZA LATTOSIO - CARAMELLO",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/44458-cremeline-senza-lattosio-crema-per-deglutire-alla-vaniglia-4-x-125g-3401252050893.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8953-cremeline-db-vari-gusti",
+   "prodotto": "CREMELINE DB VARI GUSTI",
+   "fonte": "https://meafarma.it/cremelinedb-vaniglia-4x125g",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-93-nutilis",
+   "prodotto": "Nutilis",
+   "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9757-nutilis-fruit-stage-3-vari-gusti",
+   "prodotto": "Nutilis Fruit Stage 3 vari gusti",
+   "fonte": "https://farmaciaigea.com/nutricia-nutilis-fruit-stage-3-alimento-ai-fini-medici-speciali-per-disfagia-gusto-mela-3-x-150-g",
+   "stato": "ok"
+  }
+ ]
+}

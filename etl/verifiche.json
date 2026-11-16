@@ -1,0 +1,1660 @@
+{
+ "_nota": "Verifiche dei prodotti su scheda tecnica o pagina ufficiale. Generato con etl/registra_verifica.py: non modificare a mano le citazioni.",
+ "verifiche": [
+  {
+   "chiave": "E-10915-gel-clear",
+   "prodotto": "GEL'CLEAR",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://www.soin-et-nature.com/it/29187-nutrisens-gel-clear-polvere-addensante-240g.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "È destinata alle persone con problemi di deglutizione, in particolare agli anziani, ai pazienti neurologici e a coloro che si stanno riprendendo da una malattia.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-12341-nutilis-complete-vari-gusti",
+   "prodotto": "Nutilis Complete vari gusti",
+   "azienda": "DANONE NUTRICIA SPA SOCIETA' BENEFIT IN FORMA ABBREVIATA D.N. SPA O DANONE N. SPA S. BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
+   "tipo_fonte": "produttore",
+   "citazione": "The Nutilis range are foods for special medical purposes the dietary management of disease related malnutrition and/or dysphagia.",
+   "note": "La scheda del singolo prodotto indica: 'for the dietary management of disease-related malnutrition'. Prodotto pre-addensato della linea Nutilis.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-13336-hydrafruit-zuccherata-livello-3-ananas",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 3 ANANAS",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-13337-hydrafruit-edulcorata-livello-3-frutti-rossi",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 3 FRUTTI ROSSI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-135-fresubin-2-kcal-creme-gusti-cappuccino-fragola-d",
+   "prodotto": "Fresubin 2 kcal creme - gusti: cappuccino, fragola di bosco",
+   "azienda": "FRESENIUS KABI ITALIA S.R.L. IN BREVE FKI S.R.L.",
+   "esito": "verificato",
+   "patologie": [
+    "malnutrizione",
+    "disfagia"
+   ],
+   "fonte": "https://www.fresenius-kabi.com/gb/healthcare-professional-area/clinical-nutrition/enteral-nutrition/dysphagia-products/fresubin-2kcal-creme",
+   "tipo_fonte": "produttore",
+   "citazione": "For the dietary management of patients with or at risk of disease related malnutrition, in particular increased protein and energy needs and/or dysphagia.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-16057-resource-aqua-gelificata",
+   "prodotto": "RESOURCE AQUA+ GELIFICATA",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource-aqua/AQUA",
+   "tipo_fonte": "produttore",
+   "citazione": "Resource AQUA+ è un alimento a fini medici speciali: si tratta di un’ acqua gelificata pronta all’uso per favorire l’ idratazione in caso di disfagia e/o difficoltà di deglutizione .",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-16780-am-gel-cup-vari-gusti",
+   "prodotto": "AM GEL CUP VARI GUSTI",
+   "azienda": "DMF PHARMA FOODAR SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://dmffoodar.it/prodotto/am-gel-cup-zucchero/",
+   "tipo_fonte": "produttore",
+   "citazione": "AM Gel Cup è indicata per idratare e rieducare alla funzione degluti toria i soggetti con disturbi della deglutizione, disfagia e presbifagia.",
+   "altre_citazioni": [],
+   "note": "Pagina del produttore relativa alla versione con zucchero; esiste anche la versione edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-17293-delical-creme-dessert-hp-hc-vari-gusti",
+   "prodotto": "DELICAL CREME DESSERT HP-HC VARI GUSTI",
+   "azienda": "D.M.F. DIETETIC METABOLIC FOOD S.R.L.",
+   "esito": "verificato",
+   "patologie": [
+    "malnutrizione",
+    "disfagia"
+   ],
+   "fonte": "https://dmffoodar.it/prodotto/delical-creme/",
+   "tipo_fonte": "produttore",
+   "citazione": "Le creme dessert Delical sono indicate in tutti i casi di malnutrizione o rischio di malnutrizione associata o meno a patologia, ipercatabolismo e perdita di massa muscolare; disturbi della deglutizione, e problemi di masticazione.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-17339-polvere-addensante",
+   "prodotto": "POLVERE ADDENSANTE",
+   "azienda": "FARMAZAN COSMOCEUTICI S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata; il sito del produttore (Farmazan) non elenca il prodotto.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-18114-amino-stroke-gel-pd",
+   "prodotto": "Amino Stroke GEL PD",
+   "azienda": "PROFESSIONAL DIETETICS S.P.A. IN FORMA ABBREVIATA \"P.D. S.P.A.\"",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata; il sito del produttore (Professional Dietetics) non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19575-meritene-clinical-dbt-creme",
+   "prodotto": "MERITENE CLINICAL DBT CREME",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "note": "Trovata solo la scheda di 'Meritene Diabet Creme' (indicata per pazienti diabetici disfagici). Probabile stesso prodotto, ma il nome non coincide con quello del registro: identità da confermare.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19609-nutilis-aqua-gel-essential",
+   "prodotto": "Nutilis Aqua Gel Essential",
+   "azienda": "DANONE NUTRICIA SPA SOCIETA' BENEFIT IN FORMA ABBREVIATA D.N. SPA O DANONE N. SPA S. BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://farmaciaigea.com/nutilis-aqua-gel-ara-4pz",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Nutilis Aqua Gel Essential è un alimento a fini medici speciali ad elevato contenuto di acqua (98%) la cui consistenza è stata modi cata con l'aggiunta di speci ci addensanti per renderlo idoneo all'idratazione di pazienti con problemi di deglutizione (disfagia).",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19612-ensure-multi-thick",
+   "prodotto": "Ensure Multi-thick",
+   "azienda": "ABBOTT S.R.L.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://farmaciaigea.com/ensure-multi-thick-250g",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Addensante istantaneo per alimenti e bevande, da utilizzare per la gestione dietetica di persone con disfagia.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19665-dysphameal-gusto-frittata",
+   "prodotto": "DYSPHAMEAL - GUSTO FRITTATA",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19667-dysphameal-gusto-manzo-brasato",
+   "prodotto": "DYSPHAMEAL - GUSTO MANZO BRASATO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19668-dysphameal-gusto-minestrone-di-verdure",
+   "prodotto": "DYSPHAMEAL - GUSTO MINESTRONE DI VERDURE",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19671-dysphameal-gusto-polenta-e-gorgonzola",
+   "prodotto": "DYSPHAMEAL - GUSTO POLENTA E GORGONZOLA",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19672-dysphameal-gusto-prosciutto-cotto-e-ricotta",
+   "prodotto": "DYSPHAMEAL - GUSTO PROSCIUTTO COTTO E RICOTTA",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19673-dysphameal-gusto-risotto-ai-funghi",
+   "prodotto": "DYSPHAMEAL - GUSTO RISOTTO AI FUNGHI",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19674-dysphameal-gusto-risotto-allo-zafferano",
+   "prodotto": "DYSPHAMEAL - GUSTO RISOTTO ALLO ZAFFERANO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19675-dysphameal-gusto-fungo",
+   "prodotto": "DYSPHAMEAL - GUSTO FUNGO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19676-dysphameal-gusto-piselli-e-pancetta",
+   "prodotto": "DYSPHAMEAL - GUSTO PISELLI E PANCETTA",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19677-dysphameal-gusto-porro-e-patate",
+   "prodotto": "DYSPHAMEAL - GUSTO PORRO E PATATE",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19678-dysphameal-gusto-pure",
+   "prodotto": "DYSPHAMEAL - GUSTO PURÉ",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19679-dysphameal-gusto-torta-al-limone",
+   "prodotto": "DYSPHAMEAL - GUSTO TORTA AL LIMONE",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19680-dysphameal-gusto-pomodoro-e-basilico",
+   "prodotto": "DYSPHAMEAL - GUSTO POMODORO E BASILICO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19681-dysphameal-gusto-cheesecake-ai-mirtilli",
+   "prodotto": "DYSPHAMEAL - GUSTO CHEESECAKE AI MIRTILLI",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19682-dysphameal-gusto-torta-al-cioccolato",
+   "prodotto": "DYSPHAMEAL - GUSTO TORTA AL CIOCCOLATO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19699-dysphameal-gusto-creme-caramel",
+   "prodotto": "DYSPHAMEAL - GUSTO CREME CARAMEL",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-197-thicken-up-junior",
+   "prodotto": "THICKEN UP JUNIOR",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "pediatria"
+   ],
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/resource-thicken-up-junior",
+   "tipo_fonte": "produttore",
+   "citazione": "ThickenUp ® Junior di Nestlé è un addensante in polvere per bambini e neonati, a base di gomma di carrube e xanthan, per disfagia e altre patologie pediatriche.",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19700-dysphameal-gusto-crema-ai-formaggi",
+   "prodotto": "DYSPHAMEAL - GUSTO CREMA AI FORMAGGI",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19701-dysphameal-gusto-pollo-ai-funghi",
+   "prodotto": "DYSPHAMEAL - GUSTO POLLO AI FUNGHI",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19702-dysphameal-gusto-carota",
+   "prodotto": "DYSPHAMEAL - GUSTO CAROTA",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "La stessa frase compare nelle pagine di tutti i piatti della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19726-cremeline-ultra-cioccolato",
+   "prodotto": "CREMELINE ULTRA CIOCCOLATO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Esiste la scheda tecnica del produttore (nutrisens.com, FT_Cremeline_ultra.pdf) ma è un'immagine senza testo leggibile: serve una lettura manuale.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19727-cremeline-ultra-vaniglia-caramello",
+   "prodotto": "CREMELINE ULTRA VANIGLIA-CARAMELLO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Esiste la scheda tecnica del produttore (nutrisens.com, FT_Cremeline_ultra.pdf) ma è un'immagine senza testo leggibile: serve una lettura manuale.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19728-cremeline-ultra-caffe",
+   "prodotto": "CREMELINE ULTRA CAFFE'",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Esiste la scheda tecnica del produttore (nutrisens.com, FT_Cremeline_ultra.pdf) ma è un'immagine senza testo leggibile: serve una lettura manuale.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19729-meritene-pure-instant-crema-di-patate",
+   "prodotto": "MERITENE PURE' INSTANT - CREMA DI PATATE",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://www.1000farmacie.it/meritene-pure-instant-vit-ver.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Meritene Purè Instant Vitello con Verdure 1kg è un alimento in polvere pensato per fornire un pasto completo e bilanciato, particolarmente indicato per chi ha difficoltà di masticazione o deglutizione.",
+   "note": "La fonte riguarda il gusto Vitello con verdure della stessa linea Meritene Purè Instant.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19732-acqua-gelificata-edulcorata-aquasure-125g-vari-g",
+   "prodotto": "Acqua gelificata edulcorata Aquasure 125g vari gusti",
+   "azienda": "BOSCHETTI ALIMENTARE S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.1000farmacie.it/aquasure-acqua-gelificata-edulcorata-arancia-24-x-125-g.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "AquaSure è un'acqua gelificata pronta all'uso con edulcorante, indicata per il trattamento dietetico di soggetti disfagici per idratare e rieducare alla funzione deglutitoria.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19733-thicken-up-protein-shake",
+   "prodotto": "THICKEN UP PROTEIN SHAKE",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://www.nestlehealthscience.it/prodotti/thicken-up/protein-shake",
+   "tipo_fonte": "produttore",
+   "citazione": "ThickenUp Protein Shake è indicato per la gestione dietetica di pazienti con malnutrizione proteico calorica e pazienti disfagici o in tutte le situazioni patologiche in cui la deglutizione risulta difficile",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19761-gellymed-addensante-istantaneo-per-bevande-e-ali",
+   "prodotto": "GellyMed Addensante istantaneo per bevande e alimenti",
+   "azienda": "MEDICAIR FOOD S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata; il sito del produttore (Medicair) non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19826-cremeline-2kcal-vari-gusti",
+   "prodotto": "CREMELINE 2KCAL VARI GUSTI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/137693--nutrisens-cremeline-2kcal-dessert-ipercalorico-gusto-caffe-4x125gr-3701052008361.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "È ideale per persone con difficoltà a deglutire o con ridotto appetito, assicurando un adeguato apporto nutrizionale.",
+   "altre_citazioni": [
+    "Grazie alla sua formulazione da 2 kcal per grammo, è indicato per pazienti con difficoltà di alimentazione o per chi ha bisogno di aumentare l’apporto calorico quotidiano."
+   ],
+   "note": "Fonte relativa al gusto caffè di Cremeline 2kcal; applicata anche alla variante Gourmande della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19829-cremeline-sl-vari-gusti",
+   "prodotto": "CREMELINE SL VARI GUSTI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/44458-cremeline-senza-lattosio-crema-per-deglutire-alla-vaniglia-4-x-125g-3401252050893.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Cremeline Senza Lattosio è un rimedio per favorire la deglutizione nei pazienti delicati come anziani o malati.",
+   "altre_citazioni": [
+    "aumento del fabbisogno proteico nelle persone anziane o denutrite, patologie specifiche"
+   ],
+   "note": "Fonte relativa al gusto vaniglia della linea Cremeline Senza Lattosio (SL). Scheda tecnica del produttore disponibile solo come immagine.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-19830-cremeline-sl-cioccolato",
+   "prodotto": "CREMELINE SL CIOCCOLATO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/44458-cremeline-senza-lattosio-crema-per-deglutire-alla-vaniglia-4-x-125g-3401252050893.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Cremeline Senza Lattosio è un rimedio per favorire la deglutizione nei pazienti delicati come anziani o malati.",
+   "altre_citazioni": [
+    "aumento del fabbisogno proteico nelle persone anziane o denutrite, patologie specifiche"
+   ],
+   "note": "Fonte relativa al gusto vaniglia della linea Cremeline Senza Lattosio (SL). Scheda tecnica del produttore disponibile solo come immagine.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20029-numefen-gel",
+   "prodotto": "NUMEFEN GEL",
+   "azienda": "DMF PHARMA FOODAR SRL",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata. Il nome suggerisce un prodotto per malattie metaboliche: indicazione per la disfagia da confermare.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20080-am-gel-ready",
+   "prodotto": "AM GEL READY",
+   "azienda": "DMF PHARMA FOODAR SRL",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online per 'AM Gel Ready'; esiste solo AM Gel Cup (stessa azienda), prodotto diverso.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20127-ulk-budino-vari-gusti",
+   "prodotto": "ULK BUDINO VARI GUSTI",
+   "azienda": "DMF PHARMA FOODAR SRL",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata sul sito del produttore (DMF) né presso rivenditori.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20161-hydrafruit-edulcorata-livello-4-albicocca",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 ALBICOCCA",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20162-hydrafruit-edulcorata-livello-4-limone",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 LIMONE",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20163-hydrafruit-edulcorata-livello-4-frutti-rossi",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 FRUTTI ROSSI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20164-hydrafruit-edulcorata-livello-4-mela",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 MELA",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20165-hydrafruit-zuccherata-livello-4-albicocca",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 ALBICOCCA",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20166-hydrafruit-zuccherata-livello-4-limone",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 LIMONE",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20167-hydrafruit-zuccherata-livello-4-frutti-rossi",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 FRUTTI ROSSI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20168-hydrafruit-zuccherata-livello-4-mela",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 MELA",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20170-hydrafruit-zuccherata-livello-3-limone",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 3 LIMONE",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20193-thicken-up-fizzy",
+   "prodotto": "THICKEN UP FIZZY",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/resource-ThickenUp-fizzy",
+   "tipo_fonte": "produttore",
+   "citazione": "ThickenUP Fizzy gusto neutro è un alimento a fini medici speciali indicato in caso di Disfagia .",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20197-hydrafruit-edulcorata-livello-3-multifrutto",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 3 MULTIFRUTTO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20198-hydrafruit-edulcorata-livello-4-multifrutto",
+   "prodotto": "HYDRAFRUIT EDULCORATA LIVELLO 4 MULTIFRUTTO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20199-hydrafruit-zuccherata-livello-4-multifrutto",
+   "prodotto": "HYDRAFRUIT ZUCCHERATA LIVELLO 4 MULTIFRUTTO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20212-cremeline-2kcal-gourmande-vari-gusti",
+   "prodotto": "CREMELINE 2KCAL GOURMANDE VARI GUSTI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/137693--nutrisens-cremeline-2kcal-dessert-ipercalorico-gusto-caffe-4x125gr-3701052008361.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "È ideale per persone con difficoltà a deglutire o con ridotto appetito, assicurando un adeguato apporto nutrizionale.",
+   "altre_citazioni": [
+    "Grazie alla sua formulazione da 2 kcal per grammo, è indicato per pazienti con difficoltà di alimentazione o per chi ha bisogno di aumentare l’apporto calorico quotidiano."
+   ],
+   "note": "Fonte relativa al gusto caffè di Cremeline 2kcal; applicata anche alla variante Gourmande della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20222-acqua-gelificata-edulcorata-multifrutto",
+   "prodotto": "ACQUA GELIFICATA EDULCORATA MULTIFRUTTO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/79914-acqua-gel-pack-acqua-gelificata-edulcorata-mela-12-x-125-ml-3701052000662.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Nutrisens Acqua Gel Pack Acqua Gelificata/edulcorata Mela è un alimento a fini medici speciali per l’idratazione sicura dei pazienti disfagici.",
+   "altre_citazioni": [],
+   "note": "Fonte relativa al gusto mela della linea Acqua Gelificata Edulcorata Nutrisens.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20223-acqua-gelificata-zuccherata-multifrutto",
+   "prodotto": "ACQUA GELIFICATA ZUCCHERATA MULTIFRUTTO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/129656-acqua-gel-pack-acqua-gelificata-zuccherata-arancia-12-x-125-ml-3701052004493.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Nutrisens Acqua Gel Pack Acqua Gelificata/zuccherata Arancia è un alimento a fini medici speciali per l’idratazione sicura dei pazienti disfagici.",
+   "altre_citazioni": [],
+   "note": "Fonte relativa al gusto arancia della linea Acqua Gelificata Zuccherata Nutrisens.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20227-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di merluzzo al pomodoro",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20228-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di Babà al Rhum",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20230-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di passato di verdure",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20232-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED -Alimento a fini medici speciali al gusto di prugna e mela",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20234-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di pollo arrosto",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20235-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di risotto di zucca",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20236-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di uova e asparagi",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20237-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di risotto di pesce",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20239-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di pizza margherita",
+   "azienda": "MEDICAIR INDUSTRY S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per la linea Gourmed (Medicair Industry); il sito del produttore non è raggiungibile.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20247-dysphameal-menu-arancio",
+   "prodotto": "DYSPHAMEAL - MENÙ ARANCIO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "Frase comune ai menù della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20248-dysphameal-menu-giallo",
+   "prodotto": "DYSPHAMEAL - MENÙ GIALLO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "Frase comune ai menù della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20249-dysphameal-menu-rosso",
+   "prodotto": "DYSPHAMEAL - MENÙ ROSSO",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "Frase comune ai menù della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20250-dysphameal-menu-verde",
+   "prodotto": "DYSPHAMEAL - MENÙ VERDE",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "Frase comune ai menù della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20251-dysphameal-menu-viola",
+   "prodotto": "DYSPHAMEAL - MENÙ VIOLA",
+   "azienda": "HEALTHY AGING RESEARCH GROUP SOCIETA' BENEFIT S.R.L. IN SIGLA H.A.R.G. S.B. SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://dysphameal.com/product/menu-giallo/",
+   "tipo_fonte": "produttore",
+   "citazione": "Preparato alimentare indicato per la gestione dietetica di persone affette da disfagia.",
+   "altre_citazioni": [],
+   "note": "Frase comune ai menù della linea Dysphameal sul sito del produttore.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20266-thick-n-instant",
+   "prodotto": "THICK-N INSTANT",
+   "azienda": "ERREKAPPA EUROTERAPICI S.P.A. IN FORMA ABBREVIATA, ANCHE SOTTO FORMA DI SIGLA: \"RK S.P.A.\"",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://errekappa.it/prodotti/thick-n-instant/",
+   "tipo_fonte": "produttore",
+   "citazione": "THICK-N INSTANT è un addensante liquido innovativo per la gestione dietetica della disfagia.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20276-tajine-di-pollo-nutrisens",
+   "prodotto": "TAJINE DI POLLO NUTRISENS",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata; probabilmente piatti a consistenza modificata della linea Nutrisens, da confermare.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20277-souffle-al-formaggio-nutrisens",
+   "prodotto": "SOUFFLÈ AL FORMAGGIO NUTRISENS",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata; probabilmente piatti a consistenza modificata della linea Nutrisens, da confermare.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20287-nutridens",
+   "prodotto": "NUTRIDENS",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per 'Nutridens' (Nutrisens).",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20430-dens-aqua-gel",
+   "prodotto": "DENS AQUA GEL",
+   "azienda": "AVAS PHARMACEUTICALS S.R.L.",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata; il sito del produttore (Avas Pharmaceuticals) non riporta i prodotti.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20464-hydrafruit-1-kg-zuccherata-livello-4-frutti-ross",
+   "prodotto": "HYDRAFRUIT 1 KG ZUCCHERATA LIVELLO 4 FRUTTI ROSSI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-20465-hydrafruit-1-kg-zuccherata-livello-4-limone",
+   "prodotto": "HYDRAFRUIT 1 KG ZUCCHERATA LIVELLO 4 LIMONE",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-zuccheri/154428-hydra-fruit-edulcorata-livello-4-multifrutti-24-pezzi-125-g-3700183812816.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Hydra'fruit Edulcorata Livello 4 Multifrutti è un'acqua gelificata con edulcorante, ideale per la gestione dietetica della disfagia.",
+   "altre_citazioni": [
+    "Questo prodotto è nutrizionalmente incompleto e indicato per pazienti con difficoltà di deglutizione, aiutandoli a mantenere un'adeguata idratazione."
+   ],
+   "note": "Fonte relativa a Hydra'fruit Edulcorata Livello 4 Multifrutti; applicata a gusti, livelli (3/4) e versioni zuccherata/edulcorata della stessa linea.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-2428-fortimel-creme-vari-gusti",
+   "prodotto": "Fortimel Creme vari gusti",
+   "azienda": "DANONE NUTRICIA SPA SOCIETA' BENEFIT IN FORMA ABBREVIATA D.N. SPA O DANONE N. SPA S. BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "malnutrizione",
+    "disfagia"
+   ],
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/72204-nutricia-fortimel-creme-gusto-cioccolato-125g-4-pezzi-8716900569340.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "È indicato per il trattamento dietetico della malnutrizione associata a patologie, disfagia o aumento del fabbisogno nutrizionale .",
+   "note": "Il produttore (nutricia.com, versione 2 kcal) indica: gestione dietetica della malnutrizione correlata a patologia.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-2929-resource-thicken-up",
+   "prodotto": "RESOURCE THICKEN UP",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/resource-Thicken-Up",
+   "tipo_fonte": "produttore",
+   "citazione": "ThickenUp di Nestlé è un alimento a fini medici speciali indicato per pazienti con disfagia",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-3881-delical-creme-dessert-hp-hc-la-floridine-vari-gu",
+   "prodotto": "DELICAL CREME DESSERT HP HC LA FLORIDINE VARI GUSTI",
+   "azienda": "D.M.F. DIETETIC METABOLIC FOOD S.R.L.",
+   "esito": "verificato",
+   "patologie": [
+    "malnutrizione",
+    "disfagia"
+   ],
+   "fonte": "https://dmffoodar.it/prodotto/delical-la-floridine/",
+   "tipo_fonte": "produttore",
+   "citazione": "Le creme dessert Delical La Floridine® sono indicate in tutti i casi di malnutrizione o rischio di malnutrizione associata o meno a patologia, ipercatabolismo e perdita di massa muscolare; disturbi della deglutizione, e problemi di masticazione.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-4816-acqua-gelificata-edulcorata-vari-gusti",
+   "prodotto": "Acqua Gelificata Edulcorata vari gusti",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/79914-acqua-gel-pack-acqua-gelificata-edulcorata-mela-12-x-125-ml-3701052000662.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Nutrisens Acqua Gel Pack Acqua Gelificata/edulcorata Mela è un alimento a fini medici speciali per l’idratazione sicura dei pazienti disfagici.",
+   "altre_citazioni": [],
+   "note": "Fonte relativa al gusto mela della linea Acqua Gelificata Edulcorata Nutrisens.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-53-delical-creme-dessert-hp-hc-la-floridine-gusto-c",
+   "prodotto": "DELICAL CREME DESSERT HP HC LA FLORIDINE GUSTO CIOCCOLATO",
+   "azienda": "D.M.F. DIETETIC METABOLIC FOOD S.R.L.",
+   "esito": "verificato",
+   "patologie": [
+    "malnutrizione",
+    "disfagia"
+   ],
+   "fonte": "https://dmffoodar.it/prodotto/delical-la-floridine/",
+   "tipo_fonte": "produttore",
+   "citazione": "Le creme dessert Delical La Floridine® sono indicate in tutti i casi di malnutrizione o rischio di malnutrizione associata o meno a patologia, ipercatabolismo e perdita di massa muscolare; disturbi della deglutizione, e problemi di masticazione.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-55-aminoglutam-gel",
+   "prodotto": "AMINOGLUTAM gel",
+   "azienda": "ERREKAPPA EUROTERAPICI S.P.A. IN FORMA ABBREVIATA, ANCHE SOTTO FORMA DI SIGLA: \"RK S.P.A.\"",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://errekappa.it/prodotti/aminoglutam-gel/",
+   "tipo_fonte": "produttore",
+   "citazione": "Aminoglutam® Gel, polvere gelificabile, è un alimento a fini medici speciali indicato per la gestione dietetica di pazienti affetti da disfagia o difficoltà di deglutizione o che necessitano di alimenti a consistenza specificamente determinata.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-5596-acqua-gelificata-zuccherata-vari-gusti",
+   "prodotto": "Acqua gelificata zuccherata vari gusti",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/129656-acqua-gel-pack-acqua-gelificata-zuccherata-arancia-12-x-125-ml-3701052004493.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Nutrisens Acqua Gel Pack Acqua Gelificata/zuccherata Arancia è un alimento a fini medici speciali per l’idratazione sicura dei pazienti disfagici.",
+   "altre_citazioni": [],
+   "note": "Fonte relativa al gusto arancia della linea Acqua Gelificata Zuccherata Nutrisens.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-57-aminotrofic-gel",
+   "prodotto": "Aminotrofic gel",
+   "azienda": "ERREKAPPA EUROTERAPICI S.P.A. IN FORMA ABBREVIATA, ANCHE SOTTO FORMA DI SIGLA: \"RK S.P.A.\"",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://errekappa.it/prodotti/aminotrofic-gel/",
+   "tipo_fonte": "produttore",
+   "citazione": "Aminotrofic® GEL è indicato per la gestione dietetica di pazienti affetti da disfagia e difficoltà di deglutizione o che necessitano di alimenti a consistenza specificatamente determinata.",
+   "altre_citazioni": [
+    "Aminotrofic® GEL è un alimento a fini medici speciali che fornisce una miscela di aminoacidi mediatori metabolici delle sintesi proteiche utile per riattivare la sintesi delle proteine muscolari e plasmatiche nella malnutrizione proteica"
+   ],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-6334-nutilis-acqua-gel-vari-gusti",
+   "prodotto": "Nutilis Acqua Gel vari gusti",
+   "azienda": "DANONE NUTRICIA SPA SOCIETA' BENEFIT IN FORMA ABBREVIATA D.N. SPA O DANONE N. SPA S. BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
+   "tipo_fonte": "produttore",
+   "citazione": "Nutilis Aqua is a food for special medical purposes for the dietary management of dehydration in dysphagia.",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-6691-gel-m",
+   "prodotto": "GEL M",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "scheda_non_trovata",
+   "patologie": [],
+   "fonte": "",
+   "tipo_fonte": "",
+   "citazione": "",
+   "altre_citazioni": [],
+   "note": "Nessuna fonte online trovata per 'Gel M' (Nutrisens).",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-6695-gel-ami",
+   "prodotto": "GEL AMI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/208648-gel-ami-addensante-neutro-barattolo-300-g-3701052000723.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Indicato per la disfagia : aiuta a rendere piu sicura la deglutizione di liquidi nei soggetti con difficolta.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-7173-resource-thicken-up-clear",
+   "prodotto": "RESOURCE THICKEN UP CLEAR",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://nestlehealthscience.co.uk/brands/resource-dysphagia/resource-thickenup-clear",
+   "tipo_fonte": "produttore",
+   "citazione": "Resource® ThickenUp® Clear is a Food for Special Medical Purposes for the dietary management of patients with dysphagia (swallowing difficulties) and must be used under medical supervision.",
+   "note": "La pagina italiana del produttore non riporta l'indicazione per esteso; citata la pagina UK dello stesso prodotto.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-7256-acquagel-polvere-vari-gusti",
+   "prodotto": "ACQUAGEL POLVERE VARI GUSTI",
+   "azienda": "DMF PHARMA FOODAR SRL",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "reidratazione"
+   ],
+   "fonte": "https://dmffoodar.it/prodotto/acquagel-polvere/",
+   "tipo_fonte": "produttore",
+   "citazione": "Acquagel® Polvere è indicata per idratare e rieducare alla funzione deglutitoria i soggetti con disturbi della deglutizione, disfagia e presbifagia, e problemi di masticazione.",
+   "altre_citazioni": [],
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-8287-resource-instant-protein",
+   "prodotto": "RESOURCE INSTANT PROTEIN",
+   "azienda": "NESTLE' ITALIANA S.P.A. IN FORMA ABBREVIATA NE.IT. S.P.A.",
+   "esito": "verificato",
+   "patologie": [
+    "malnutrizione"
+   ],
+   "fonte": "https://www.nestlehealthscience.it/prodotti/resource/instant-protein",
+   "tipo_fonte": "produttore",
+   "citazione": "Indicato per il trattamento di pazienti con aumentato bisogno proteico.",
+   "note": "Corretto: non è un prodotto per la disfagia ma un modulo proteico.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-8458-nutilis-clear",
+   "prodotto": "Nutilis Clear",
+   "azienda": "DANONE NUTRICIA SPA SOCIETA' BENEFIT IN FORMA ABBREVIATA D.N. SPA O DANONE N. SPA S. BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://www.direct.nutricia.it/rest/files/2023/09/13/280729.pdf",
+   "tipo_fonte": "produttore",
+   "citazione": "Nutilis Clear è un alimento a fini medici speciali per la gestione dietetica della disfagia e deve essere utilizzato sotto controllo medico.",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-8952-cremeline-senza-lattosio-caramello",
+   "prodotto": "CREMELINE SENZA LATTOSIO - CARAMELLO",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/44458-cremeline-senza-lattosio-crema-per-deglutire-alla-vaniglia-4-x-125g-3401252050893.html",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Cremeline Senza Lattosio è un rimedio per favorire la deglutizione nei pazienti delicati come anziani o malati.",
+   "altre_citazioni": [
+    "aumento del fabbisogno proteico nelle persone anziane o denutrite, patologie specifiche"
+   ],
+   "note": "Fonte relativa al gusto vaniglia della linea Cremeline Senza Lattosio (SL). Scheda tecnica del produttore disponibile solo come immagine.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-8953-cremeline-db-vari-gusti",
+   "prodotto": "CREMELINE DB VARI GUSTI",
+   "azienda": "NUTRISENS ITALIA S.R.L. SOCIETA' BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione",
+    "diabete"
+   ],
+   "fonte": "https://meafarma.it/cremelinedb-vaniglia-4x125g",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Crema iperproteica e ipercalorica pronta all'uso, specificatamente studiata per rispondere alle necessità del paziente diabetico, sterilizzata e raccomandata in caso di: disturbi della deglutizione, aumento del fabbisogno proteico nelle persone anziane o denutrite",
+   "altre_citazioni": [],
+   "note": "Fonte relativa al gusto vaniglia della linea Cremeline DB.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-93-nutilis",
+   "prodotto": "Nutilis",
+   "azienda": "DANONE NUTRICIA SPA SOCIETA' BENEFIT IN FORMA ABBREVIATA D.N. SPA O DANONE N. SPA S. BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia"
+   ],
+   "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
+   "tipo_fonte": "produttore",
+   "citazione": "Nutilis Powder is a food for special medical purposes for the dietary management of dysphagia.",
+   "note": "",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  },
+  {
+   "chiave": "E-9757-nutilis-fruit-stage-3-vari-gusti",
+   "prodotto": "Nutilis Fruit Stage 3 vari gusti",
+   "azienda": "DANONE NUTRICIA SPA SOCIETA' BENEFIT IN FORMA ABBREVIATA D.N. SPA O DANONE N. SPA S. BENEFIT",
+   "esito": "verificato",
+   "patologie": [
+    "disfagia",
+    "malnutrizione"
+   ],
+   "fonte": "https://farmaciaigea.com/nutricia-nutilis-fruit-stage-3-alimento-ai-fini-medici-speciali-per-disfagia-gusto-mela-3-x-150-g",
+   "tipo_fonte": "rivenditore",
+   "citazione": "Nutricia Nutilis Fruit Stage 3 è un alimento destinato a fini medici speciali completo, a consistenza semisolida , elevata concentrazione energetica (205 kcal per vasetto) ed alto contenuto di proteine (10,5 g/vasetto).",
+   "note": "Il rivenditore lo presenta come 'Alimento ai Fini Medici Speciali per Disfagia'. Fonte del produttore non trovata.",
+   "data": "2026-11-16",
+   "verificatore": "Claude (IA) – confronto testuale con la fonte"
+  }
+ ]
+}

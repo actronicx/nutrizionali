@@ -8,6 +8,7 @@ on:
   push:
     branches: [main]
     paths: ["web/**", "etl/**", ".github/workflows/**"]
+  # per applicare nuove verifiche basta un push che modifichi etl/verifiche.json
 
 permissions:
   contents: write
@@ -34,6 +35,11 @@ jobs:
           pip install -r etl/requirements.txt
           python -m playwright install --with-deps chromium
 
+      - name: Ricontrolla le fonti delle verifiche
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python etl/verifica.py ricontrolla --report web/data/ricontrollo.json
+
       - name: Scarica e rigenera i dati
         if: github.event_name != 'push'
         run: python etl/update_data.py
@@ -43,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/data/products.json
+          git add web/data/products.json web/data/ricontrollo.json
           git diff --cached --quiet || git commit -m "Aggiornamento automatico banca dati $(date -u +%Y-%m-%d)"
           git push
 
