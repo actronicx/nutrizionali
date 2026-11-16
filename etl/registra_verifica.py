@@ -63,7 +63,7 @@ def main(path):
                 "altre_citazioni": rec.get("altre_citazioni", []),
                 "note": rec.get("note", ""),
                 "data": date.today().isoformat(),
-                "verificatore": "Claude (IA) – confronto testuale con la fonte",
+                "verificatore": "Claude (IA) – estrazione automatica" if rec.get("automatico") else "Claude (IA) – confronto testuale con la fonte",
             }
             ok += 1
         print("✓", rec["esito"], "-", ", ".join(prodotti[k]["nome"][:40] for k in rec["chiavi"][:3]), "…" if len(rec["chiavi"]) > 3 else "")

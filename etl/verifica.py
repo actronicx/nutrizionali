@@ -34,22 +34,81 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _get(url: str):
+    import time
+    for tentativo in range(3):
+        try:
+            r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9"}, timeout=60)
+            if r.status_code in (429, 500, 502, 503, 504) and tentativo < 2:
+                raise requests.ConnectionError(f"HTTP {r.status_code}")
+            r.raise_for_status()
+            return r
+        except (requests.ConnectionError, requests.Timeout):
+            if tentativo == 2:
+                raise
+            time.sleep(3 * (tentativo + 1))
+
+
 def fetch_text(url: str) -> str:
-    r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9"}, timeout=60)
-    r.raise_for_status()
+    """testo della pagina o del PDF; con VERIFICA_CACHE=dir i testi sono memorizzati su disco"""
+    import hashlib, os
+    cache = os.environ.get("VERIFICA_CACHE")
+    if cache:
+        f = Path(cache) / (hashlib.sha1(url.encode()).hexdigest() + ".v2.txt")
+        if f.exists():
+            return f.read_text(encoding="utf-8")
+        t = _fetch_text(url)
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(t, encoding="utf-8")
+        return t
+    return _fetch_text(url)
+
+
+def _fetch_text(url: str) -> str:
+    try:
+        r = _get(url)
+    except requests.exceptions.SSLError:
+        # alcuni siti hanno una catena di certificati incompleta che Chromium completa da solo
+        return _html_a_testo(url, fetch_browser(url))
     ctype = r.headers.get("content-type", "")
-    if "pdf" in ctype or url.lower().split("?")[0].endswith(".pdf"):
+    if "pdf" in ctype or url.lower().split("?")[0].endswith(".pdf") or r.content[:5] == b"%PDF-":
         import pdfplumber
         with pdfplumber.open(io.BytesIO(r.content)) as pdf:
             return "\n".join(p.extract_text() or "" for p in pdf.pages)
     html = r.text
     if len(re.sub(r"<[^>]+>", "", html)) < 500:  # pagina generata via JavaScript
         html = fetch_browser(url)
+    return _html_a_testo(url, html)
+
+
+def _html_a_testo(url: str, html: str) -> str:
+    html = contenuto_principale(url, html)
     html = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", html)
     html = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h[1-6]|tr|td)>", "\n", html)
     text = re.sub(r"<[^>]+>", " ", html)
     import html as h
     return h.unescape(text)
+
+
+def contenuto_principale(url: str, html: str) -> str:
+    """Tiene solo il blocco che descrive il prodotto: menu, caroselli di altri prodotti
+    e piè di pagina contengono frasi che non riguardano il prodotto."""
+    host = re.sub(r"^www\.", "", re.sub(r"^https?://", "", url).split("/")[0])
+    if host == "tuttofarma.it":
+        parti = []
+        m = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
+        if m:
+            parti.append(m.group(0))
+        m = re.search(r'<div class="product_description_short[^"]*"[^>]*>(.*?)</div>', html, re.S)
+        if m:
+            parti.append(m.group(1))
+        i = html.find('id="description"')
+        if i >= 0:
+            j = html.find('<div class="tab-pane', i + 20)
+            parti.append(html[i:j if j > 0 else i + 20000])
+        return "\n".join(parti)
+    m = re.search(r"<main\b.*?</main>", html, re.S | re.I)
+    return m.group(0) if m and len(m.group(0)) > 500 else html
 
 
 def fetch_browser(url: str) -> str:

@@ -165,6 +165,7 @@
     verificato: ["ok", "✓ Verificato"],
     scheda_non_trovata: ["warn", "⚠ Scheda non trovata"],
     fonte_cambiata: ["warn", "⚠ Fonte cambiata"],
+    indicazioni_non_chiare: ["warn", "⚠ Indicazioni non chiare"],
     da_verificare: ["warn", "⚠ Da verificare"],
     cnd: ["info", "Classe CND"],
   };
@@ -182,7 +183,7 @@
       return `<div class="verifica info"><b>Indicazione per classe CND.</b> L'associazione alla patologia deriva dalla classificazione nazionale dei dispositivi medici (CND ${esc(p.cnd)}), non dal singolo prodotto.</div>`;
     }
     if (v.esito === "verificato") {
-      const fonteLbl = v.tipo_fonte === "produttore" ? "fonte del produttore" : "fonte secondaria (rivenditore)";
+      const fonteLbl = { produttore: "fonte del produttore", rcp_aifa: "scheda ufficiale AIFA (RCP)", fi_aifa: "foglio illustrativo AIFA" }[v.tipo_fonte] || "fonte secondaria (rivenditore)";
       const cit = [v.citazione, ...(v.altre_citazioni || [])].map((c) => `<blockquote>«${esc(c)}»</blockquote>`).join("");
       const corr = [
         v.corrette_tolte?.length ? `rimosse: ${v.corrette_tolte.map((id) => esc(PAT[id]?.nome || id)).join(", ")}` : "",
@@ -192,7 +193,8 @@
       return `<div class="verifica ok"><b>✓ Verificato sulla ${fonteLbl}</b>${cit}
         <div class="meta"><a href="${esc(v.fonte)}" target="_blank" rel="noopener">${esc(host)} ↗</a> · ${esc(v.verificatore || "")} · ${esc(v.data || "")}</div>
         ${corr ? `<div class="meta">Correzioni rispetto all'assegnazione automatica: ${corr}</div>` : ""}
-        ${v.note ? `<div class="meta">Nota: ${esc(v.note)}</div>` : ""}</div>`;
+        ${v.note ? `<div class="meta">Nota: ${esc(v.note)}</div>` : ""}
+        ${/aifa/.test(v.tipo_fonte || "") ? `<div class="meta">Il testo è estratto dal PDF ufficiale: può contenere lettere spurie dovute alla filigrana del documento.</div>` : ""}</div>`;
     }
     const why = v.esito === "da_verificare" ? "Prodotto non ancora confrontato con la scheda tecnica." : (v.note || "Nessuna scheda tecnica trovata online.");
     return `<div class="verifica warn"><b>⚠ Indicazioni non verificate.</b> ${esc(why)} Le patologie mostrate sono assegnate automaticamente in base al nome e alla categoria: controllare la scheda tecnica prima dell'uso.</div>`;

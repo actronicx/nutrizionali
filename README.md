@@ -51,7 +51,27 @@ Strumenti:
 
 Regole adottate: si preferisce la fonte del produttore; una fonte di un rivenditore è accettata solo se riporta l'indicazione del prodotto ed è segnalata come fonte secondaria. Una fonte relativa a un altro gusto della stessa linea è accettata e annotata. Se il nome trovato non coincide con quello del registro, il prodotto **non** viene dato per verificato.
 
-Le verifiche attuali sono state eseguite da Claude (IA) confrontando il testo delle fonti. Per un uso clinico è raccomandata una revisione a campione da parte di un dietista o di un farmacista.
+### Stato attuale (16/11/2026)
+
+| | Prodotti | ✓ Verificati | ⚠ Indicazioni non chiare | ⚠ Scheda non trovata |
+|---|---|---|---|---|
+| Enterali / AFMS | 1.411 | 410 | 529 | 472 |
+| Parenterali | 74 | 68 (RCP AIFA) | – | 5 (+1 da verificare) |
+| Dispositivi | 2.571 | indicazione per classe CND | | |
+
+Metodi:
+
+- **Pilota disfagia (102 prodotti)**: confronto manuale prodotto per prodotto con la fonte.
+- **Parenterali**: estrazione automatica della sezione 4.1 "Indicazioni terapeutiche" dell'RCP AIFA (`etl/verifica_parenterali.py`); solo le patologie nominate nella 4.1, con gestione delle negazioni ("senza insufficienza renale").
+- **Enterali**: pipeline automatica (`etl/verifica_enterali.py`) su pagine dei produttori (sitemap pubbliche) e su Tuttofarma (sitemap pubblica; la ricerca interna non è usata perché vietata dal robots.txt). Regole principali:
+  - la pagina è accettata solo se il nome coincide e non contiene parole che indicano un'altra variante (es. *Fortimel* ≠ *Fortimel Compact Protein*);
+  - si legge solo il blocco descrizione del prodotto, mai menu o caroselli di altri prodotti; si scartano le frasi che nominano altri marchi;
+  - una patologia è assegnata solo se una frase la nomina insieme a un'espressione di indicazione ("indicato per", "gestione dietetica", "destinato a", "formulato per"…); sono escluse domande e risposte delle FAQ, controindicazioni ("non usare in caso di…"), avvertenze e indicazioni sulla via di somministrazione;
+  - ogni patologia assegnata ha almeno una frase citata a sostegno.
+
+**Controllo qualità**: dopo ogni modifica delle regole è stato estratto un campione casuale di verifiche automatiche, controllato a mano. Errori riscontrati per campione (almeno una patologia sbagliata): 9/12 → 5/40 → 8/40 → 3/40 → 3–4/50 → **1–2/50 nell'ultimo campione (circa 96–98% di record corretti)**. Il prodotto associato è risultato corretto in tutti i campioni (al più un gusto diverso della stessa linea).
+
+**Limiti noti**: le pagine dei rivenditori possono contenere testi descrittivi non scritti dal produttore; per questo sono indicate come "fonte secondaria". Le verifiche sono state eseguite da Claude (IA): per un uso clinico è raccomandata una revisione a campione da parte di un dietista o di un farmacista.
 
 ## Struttura
 
@@ -61,6 +81,8 @@ etl/patologie.json     regole patologie (modificabili)
 etl/verifiche.json     verifiche su scheda tecnica (citazione, fonte, esito)
 etl/verifica.py        estrazione frasi dalle fonti e ricontrollo settimanale
 etl/registra_verifica.py  registrazione verifiche con controllo della citazione
+etl/verifica_parenterali.py  verifica automatica sui documenti AIFA (RCP / foglio illustrativo)
+etl/verifica_enterali.py  verifica automatica sulle pagine di produttori e farmacie online
 web/index.html         app (HTML/CSS/JS statici, nessun server necessario)
 web/data/products.json banca dati generata
 .github/workflows/     aggiornamento automatico settimanale + pubblicazione su GitHub Pages
