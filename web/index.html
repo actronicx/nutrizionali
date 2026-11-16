@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NutriProntuario</title>
+<meta name="description" content="Ricerca di prodotti per nutrizione enterale, parenterale e dispositivi medici in commercio in Italia, filtrabili per patologia.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%231a73e8'/%3E%3Cpath d='M10 22V10l12 12V10' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+<div id="app">
+
+  <!-- HOME -->
+  <main id="home" class="home">
+    <h1 class="logo logo-big" aria-label="NutriProntuario"><span class="l1">Nutri</span><span class="l2">Prontuario</span></h1>
+    <p class="tagline">Nutrizione enterale, parenterale e dispositivi medici in commercio in Italia</p>
+    <form class="searchbox" id="home-form" role="search" autocomplete="off">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+      <input id="home-q" type="search" placeholder="Cerca una patologia, un prodotto o un'azienda" aria-label="Cerca" autofocus>
+      <button type="button" class="clear" aria-label="Cancella" hidden>×</button>
+      <ul class="suggest" role="listbox" hidden></ul>
+    </form>
+    <div class="chips" id="home-chips" aria-label="Ricerche per patologia"></div>
+    <p class="stats" id="home-stats">Caricamento banca dati…</p>
+  </main>
+
+  <!-- RESULTS -->
+  <div id="results" class="results" hidden>
+    <header class="topbar">
+      <a href="#" class="logo logo-small" id="logo-home" aria-label="Torna alla home"><span class="l1">Nutri</span><span class="l2">Prontuario</span></a>
+      <form class="searchbox small" id="top-form" role="search" autocomplete="off">
+        <input id="top-q" type="search" aria-label="Cerca">
+        <button type="button" class="clear" aria-label="Cancella" hidden>×</button>
+        <button type="submit" class="go" aria-label="Cerca"><svg class="ico" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
+        <ul class="suggest" role="listbox" hidden></ul>
+      </form>
+    </header>
+    <nav class="tabs" id="tabs" aria-label="Tipologia"></nav>
+    <div class="layout">
+      <section class="list">
+        <div class="filters" id="filters"></div>
+        <p class="count" id="count"></p>
+        <ol id="items" class="items"></ol>
+        <button id="more" class="more" hidden>Altri risultati</button>
+      </section>
+      <aside id="panel" class="panel" hidden></aside>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div>Fonti ufficiali: <a href="https://www.aifa.gov.it/dati-aperti" target="_blank" rel="noopener">AIFA</a> ·
+      <a href="https://www.salute.gov.it/new/it/tema/alimenti-fini-medici-speciali-ed-integratori/registro-nazionale-alimenti-fini-medici-speciali/" target="_blank" rel="noopener">Registro AFMS</a> ·
+      <a href="https://www.dati.salute.gov.it/it/dataset/dispositivi-medici/" target="_blank" rel="noopener">Repertorio Dispositivi Medici</a>
+      <span id="footer-date"></span></div>
+    <div class="disclaimer">Le associazioni prodotto–patologia sono indicative e generate automaticamente: non sostituiscono la scheda tecnica né la valutazione del medico o del dietista.</div>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

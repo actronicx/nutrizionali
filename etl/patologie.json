@@ -1,0 +1,632 @@
+{
+  "_nota": "Regole indicative per associare i prodotti alle patologie. 'nome' = regex (case-insensitive) sul nome del prodotto; 'categoria' = id categoria; 'cnd' = prefissi CND dei dispositivi; 'atc' = prefissi ATC. Modificabile: dopo ogni modifica rilanciare etl/update_data.py. Il campo 'manuali' associa singoli prodotti per id.",
+  "patologie": [
+    {
+      "id": "disfagia",
+      "nome": "Disfagia",
+      "sinonimi": [
+        "disfagie",
+        "difficoltà di deglutizione",
+        "deglutizione",
+        "addensanti",
+        "acqua gelificata"
+      ],
+      "descrizione": "Difficoltà a deglutire liquidi e/o solidi: addensanti, acque gelificate, consistenze modificate e, nei casi gravi, nutrizione enterale per sonda (SNG, PEG).",
+      "regole": {
+        "nome": [
+          "addens",
+          "thick",
+          "gelific",
+          "(?<!soft-)\\bgel\\b",
+          "acquagel",
+          "aquasure",
+          "nutilis",
+          "resource instant",
+          "cr[eè]me\\b",
+          "cremeline",
+          "dessert",
+          "pudding",
+          "budino",
+          "\\bpure[ae]?\\b",
+          "purè",
+          "mousse",
+          "dysph",
+          "disfag",
+          "hydrafruit",
+          "nutridens",
+          "livello [1-5]\\b",
+          "gourmed",
+          "textur",
+          "\\bnutrisens\\b",
+          "souffl"
+        ],
+        "categoria": [
+          "addensanti"
+        ],
+        "cnd": [
+          "G02020101",
+          "G02020102",
+          "G02020201",
+          "G02020202",
+          "A030403",
+          "A080101",
+          "A020108",
+          "A03010399",
+          "Z12030303"
+        ],
+        "escludi_categoria": [
+          "metabolici",
+          "ipoproteici",
+          "formule_infanzia"
+        ]
+      }
+    },
+    {
+      "id": "malnutrizione",
+      "nome": "Malnutrizione / disnutrizione",
+      "sinonimi": [
+        "malnutrizione",
+        "denutrizione",
+        "disnutrizione",
+        "calo ponderale",
+        "sarcopenia",
+        "cachessia",
+        "integrazione orale",
+        "supplemento"
+      ],
+      "descrizione": "Stati di malnutrizione calorico-proteica o rischio nutrizionale: supplementi nutrizionali orali (ONS), moduli calorici/proteici e formule per nutrizione enterale.",
+      "regole": {
+        "categoria": [
+          "ons",
+          "formule_enterali",
+          "moduli"
+        ],
+        "atc": [
+          "B05BA"
+        ],
+        "escludi_categoria": []
+      }
+    },
+    {
+      "id": "insufficienza_intestinale",
+      "nome": "Insufficienza intestinale",
+      "sinonimi": [
+        "intestino corto",
+        "sindrome intestino corto",
+        "occlusione intestinale",
+        "fistole",
+        "nutrizione parenterale"
+      ],
+      "descrizione": "Quando la nutrizione per via enterale è impossibile o insufficiente: nutrizione parenterale (sacche, aminoacidi, lipidi, glucosio) e relativi dispositivi.",
+      "regole": {
+        "atc": [
+          "B05BA",
+          "B05XC",
+          "B05XA31"
+        ],
+        "cnd": [
+          "A080102",
+          "A0880",
+          "A088099",
+          "A0899",
+          "A080201",
+          "A03010105",
+          "Z12030301"
+        ]
+      }
+    },
+    {
+      "id": "malassorbimento",
+      "nome": "Malassorbimento / maldigestione",
+      "sinonimi": [
+        "malassorbimento",
+        "maldigestione",
+        "pancreatite",
+        "insufficienza pancreatica",
+        "diarrea",
+        "formule peptidiche",
+        "semielementari"
+      ],
+      "descrizione": "Formule peptidiche o elementari e moduli di MCT, più facilmente assorbibili.",
+      "regole": {
+        "nome": [
+          "pept",
+          "survimed",
+          "\\bvital\\b",
+          "elemental",
+          "emsogen",
+          "perative",
+          "\\bmct\\b",
+          "liquigen",
+          "monogen",
+          "lipistart",
+          "alfar[eé]",
+          "pregestimil",
+          "alfamino",
+          "neocate",
+          "puramino",
+          "\\bopd\\b"
+        ]
+      }
+    },
+    {
+      "id": "aplv",
+      "nome": "Allergia alle proteine del latte vaccino (APLV)",
+      "sinonimi": [
+        "aplv",
+        "allergia proteine latte",
+        "allergia alimentare",
+        "intolleranza latte vaccino"
+      ],
+      "descrizione": "Formule idrolisate spinte, a base di aminoacidi o di riso, per lattanti e bambini con APLV.",
+      "regole": {
+        "nome": [
+          "neocate",
+          "alfamino",
+          "nutramigen",
+          "pepti",
+          "allernova",
+          "alth[eé]ra",
+          "alfar[eé]",
+          "pregestimil",
+          "puramino",
+          "sinelac",
+          "\\briso\\b",
+          "\\brice\\b",
+          "amino ?acid",
+          "aminoacid"
+        ]
+      }
+    },
+    {
+      "id": "pku",
+      "nome": "Fenilchetonuria (PKU) e iperfenilalaninemie",
+      "sinonimi": [
+        "fenilchetonuria",
+        "pku",
+        "iperfenilalaninemia",
+        "fenilalanina"
+      ],
+      "descrizione": "Miscele di aminoacidi prive di fenilalanina e alimenti ipoproteici.",
+      "regole": {
+        "nome": [
+          "afenil",
+          "\\bpku\\b",
+          "phlexy",
+          "\\bxp\\b",
+          "lofenalac",
+          "phenyl",
+          "glytactin",
+          "pk ?aid",
+          "easiphen",
+          "\\bphe\\b",
+          "\\bgmp\\b",
+          "\\bpt\\b",
+          "\\bx ?phe",
+          "antifen",
+          "harifen",
+          "maxamaid xp",
+          "phenylalanin",
+          "\\blnaa",
+          "sineamin"
+        ],
+        "categoria": [
+          "ipoproteici"
+        ]
+      }
+    },
+    {
+      "id": "metaboliche",
+      "nome": "Malattie metaboliche congenite",
+      "sinonimi": [
+        "malattie metaboliche",
+        "errori congeniti del metabolismo",
+        "msud",
+        "tirosinemia",
+        "omocistinuria",
+        "acidemia",
+        "aciduria",
+        "ciclo dell'urea",
+        "glicogenosi",
+        "galattosemia"
+      ],
+      "descrizione": "Miscele di aminoacidi selettive e prodotti specifici per errori congeniti del metabolismo (MSUD, tirosinemia, omocistinuria, acidemie organiche, difetti del ciclo dell'urea, ecc.).",
+      "regole": {
+        "nome": [
+          "afenil",
+          "\\bpku\\b",
+          "msud",
+          "\\btyr",
+          "\\bhcu",
+          "\\bmma",
+          "\\bpa\\b",
+          "\\bga ?1",
+          "\\bucd",
+          "\\beaa\\b",
+          "\\bzero\\b",
+          "anamix",
+          "lophlex",
+          "\\bxp\\b",
+          "\\bx ?(lys|met|leu|mtvi|phe|ptyr)",
+          "\\bilv\\b",
+          "\\btvmi",
+          "\\bvil\\b",
+          "glycosade",
+          "galatt",
+          "aproteic",
+          "ipoproteic",
+          "low ?protein",
+          "loprofin",
+          "\\bsod\\b",
+          "xmtvi",
+          "maxamaid",
+          "maxamum",
+          "\\bga\\b",
+          "\\biva\\b",
+          "\\bhom\\b",
+          "\\bleu\\b",
+          "milupa",
+          "tylactin",
+          "glycin\\d",
+          "plus8"
+        ],
+        "categoria": [
+          "metabolici",
+          "ipoproteici"
+        ]
+      }
+    },
+    {
+      "id": "epilessia",
+      "nome": "Epilessia farmacoresistente (dieta chetogenica)",
+      "sinonimi": [
+        "epilessia",
+        "dieta chetogenica",
+        "chetogenica",
+        "glut1",
+        "deficit glut1"
+      ],
+      "descrizione": "Formule e moduli per la dieta chetogenica.",
+      "regole": {
+        "nome": [
+          "keto",
+          "k\\.? ?vita",
+          "betaquik",
+          "liquigen",
+          "\\bmct\\b",
+          "dkx"
+        ]
+      }
+    },
+    {
+      "id": "renale",
+      "nome": "Insufficienza renale / dialisi",
+      "sinonimi": [
+        "insufficienza renale",
+        "nefropatia",
+        "dialisi",
+        "emodialisi",
+        "malattia renale cronica",
+        "irc"
+      ],
+      "descrizione": "Formule a ridotto contenuto di elettroliti e proteine modulate; aminoacidi parenterali per nefropatici.",
+      "regole": {
+        "nome": [
+          "nephr",
+          "nepro",
+          "renal",
+          "renil",
+          "suplena",
+          "renastart",
+          "kindergen",
+          "renapro",
+          "isoren",
+          "aminoacidi essenziali",
+          "\\bsol\\.? di a\\.? ?ess",
+          "iposodic"
+        ],
+        "categoria": [
+          "ipoproteici"
+        ]
+      }
+    },
+    {
+      "id": "epatopatia",
+      "nome": "Epatopatia / encefalopatia epatica",
+      "sinonimi": [
+        "epatopatia",
+        "cirrosi",
+        "encefalopatia epatica",
+        "insufficienza epatica",
+        "fegato"
+      ],
+      "descrizione": "Formule e soluzioni arricchite in aminoacidi a catena ramificata.",
+      "regole": {
+        "nome": [
+          "hepa",
+          "epat",
+          "catena ramificata",
+          "aminoacidi cr",
+          "\\bbcaa",
+          "heparon"
+        ]
+      }
+    },
+    {
+      "id": "diabete",
+      "nome": "Diabete / iperglicemia",
+      "sinonimi": [
+        "diabete",
+        "diabetico",
+        "iperglicemia"
+      ],
+      "descrizione": "Formule a basso indice glicemico e con carboidrati modificati.",
+      "regole": {
+        "nome": [
+          "diab",
+          "diasip",
+          "diason",
+          "glucerna",
+          "diben",
+          "\\bdb\\b",
+          "gi control",
+          "\\bdm\\b"
+        ]
+      }
+    },
+    {
+      "id": "bpco",
+      "nome": "Insufficienza respiratoria / BPCO",
+      "sinonimi": [
+        "bpco",
+        "broncopneumopatia",
+        "insufficienza respiratoria",
+        "polmone"
+      ],
+      "descrizione": "Formule ad alta densità energetica e ridotto carico di carboidrati.",
+      "regole": {
+        "nome": [
+          "pulmo",
+          "respif",
+          "oxepa"
+        ]
+      }
+    },
+    {
+      "id": "lesioni",
+      "nome": "Lesioni da pressione / ferite",
+      "sinonimi": [
+        "lesioni da pressione",
+        "piaghe",
+        "decubito",
+        "ulcere",
+        "ferite",
+        "cicatrizzazione"
+      ],
+      "descrizione": "Formule arricchite in arginina, zinco, antiossidanti, HMB per la guarigione delle ferite.",
+      "regole": {
+        "nome": [
+          "cubitan",
+          "cubison",
+          "arginaid",
+          "abound",
+          "juven",
+          "argin",
+          "vulnamin",
+          "\\bwh\\b"
+        ]
+      }
+    },
+    {
+      "id": "oncologia",
+      "nome": "Paziente oncologico / chirurgia",
+      "sinonimi": [
+        "tumore",
+        "cancro",
+        "oncologico",
+        "chemioterapia",
+        "radioterapia",
+        "chirurgia",
+        "perioperatorio",
+        "immunonutrizione",
+        "cachessia neoplastica"
+      ],
+      "descrizione": "Immunonutrizione perioperatoria, formule con omega-3/EPA e supplementi ad alto apporto proteico.",
+      "regole": {
+        "nome": [
+          "impact",
+          "forticare",
+          "supportan",
+          "prosure",
+          "pre-?op",
+          "preop",
+          "\\bepa\\b",
+          "omega",
+          "oncolog"
+        ]
+      }
+    },
+    {
+      "id": "mici",
+      "nome": "Malattie infiammatorie croniche intestinali (Crohn)",
+      "sinonimi": [
+        "crohn",
+        "mici",
+        "colite ulcerosa",
+        "ibd"
+      ],
+      "descrizione": "Formule polimeriche specifiche per la terapia nutrizionale esclusiva nella malattia di Crohn.",
+      "regole": {
+        "nome": [
+          "modulen",
+          "alicalm",
+          "\\bibd\\b",
+          "\\bmici\\b"
+        ]
+      }
+    },
+    {
+      "id": "pediatria",
+      "nome": "Età pediatrica / neonati pretermine",
+      "sinonimi": [
+        "bambini",
+        "pediatrico",
+        "neonato",
+        "neonati",
+        "pretermine",
+        "prematuro",
+        "lattante",
+        "lattanti",
+        "infanzia"
+      ],
+      "descrizione": "Formule e soluzioni pensate per l'età pediatrica, neonati pretermine e fortificanti del latte materno.",
+      "regole": {
+        "nome": [
+          "infatrini",
+          "fortini",
+          "pediasure",
+          "\\bjunior",
+          "\\bkid",
+          "\\binfant",
+          "\\bbaby",
+          "nenatal",
+          "\\bpre[ -]?n",
+          "fortifier",
+          "\\bfm ?85",
+          "\\bpreterm",
+          "primene",
+          "numeta",
+          "vaminolact",
+          "pedi",
+          "\\bpaed",
+          "\\bbimb",
+          "nutrini",
+          "frebini",
+          "\\bar\\b",
+          "humana",
+          "hipp",
+          "mellin",
+          "plasmon",
+          "nidina",
+          "novalac",
+          "aptamil"
+        ],
+        "cnd": [
+          "V0203",
+          "V0280"
+        ],
+        "categoria": [
+          "formule_infanzia"
+        ]
+      }
+    },
+    {
+      "id": "nutrizione_enterale_sonda",
+      "nome": "Nutrizione enterale per sonda (SNG, PEG, PEJ)",
+      "sinonimi": [
+        "sonda",
+        "peg",
+        "gastrostomia",
+        "sondino",
+        "sng",
+        "digiunostomia",
+        "nutripompa",
+        "nutrizione artificiale",
+        "nutrizione enterale"
+      ],
+      "descrizione": "Formule complete per sonda e tutti i dispositivi per la nutrizione enterale (sonde, kit, set, siringhe ENFit, sacche, nutripompe).",
+      "regole": {
+        "categoria": [
+          "formule_enterali"
+        ],
+        "cnd": [
+          "G0202",
+          "A030403",
+          "A080101",
+          "A020108",
+          "A03010399",
+          "Z12030303"
+        ]
+      }
+    },
+    {
+      "id": "fibre",
+      "nome": "Diarrea / stipsi in nutrizione enterale (formule con fibre)",
+      "sinonimi": [
+        "stipsi",
+        "stitichezza",
+        "diarrea",
+        "fibre",
+        "fibra",
+        "regolarità intestinale"
+      ],
+      "descrizione": "Formule e moduli arricchiti in fibre solubili/insolubili.",
+      "regole": {
+        "nome": [
+          "fib",
+          "\\bmf\\b",
+          "multi ?fibre",
+          "fibre"
+        ]
+      }
+    },
+    {
+      "id": "reidratazione",
+      "nome": "Disidratazione / diarrea acuta (reidratazione)",
+      "sinonimi": [
+        "disidratazione",
+        "reidratazione",
+        "gastroenterite",
+        "diarrea acuta",
+        "vomito",
+        "ors"
+      ],
+      "descrizione": "Soluzioni reidratanti orali (ORS) a base di elettroliti e glucosio.",
+      "regole": {
+        "categoria": [
+          "reidratanti"
+        ]
+      }
+    },
+    {
+      "id": "reflusso",
+      "nome": "Rigurgito / reflusso del lattante",
+      "sinonimi": [
+        "reflusso",
+        "rigurgito",
+        "antirigurgito",
+        "mrge",
+        "reflusso gastroesofageo"
+      ],
+      "descrizione": "Formule antirigurgito (AR) addensate per lattanti.",
+      "regole": {
+        "nome": [
+          "\\bar\\b",
+          "antirigurg",
+          "\\bcomfort\\b"
+        ]
+      }
+    },
+    {
+      "id": "bariatrica",
+      "nome": "Chirurgia bariatrica / obesità",
+      "sinonimi": [
+        "bariatrica",
+        "obesità",
+        "sleeve",
+        "bypass gastrico",
+        "by-pass"
+      ],
+      "descrizione": "Integrazione vitaminico-minerale e proteica dopo chirurgia bariatrica.",
+      "regole": {
+        "nome": [
+          "bariatr",
+          "\\bwls\\b",
+          "\\bbypass",
+          "sleeve"
+        ]
+      }
+    }
+  ],
+  "manuali": {}
+}
