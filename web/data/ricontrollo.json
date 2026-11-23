@@ -1,6 +1,48 @@
 {
- "data": "2026-11-16",
+ "data": "2026-11-23",
  "esiti": [
+  {
+   "chiave": "E-100-sideral-med",
+   "prodotto": "SiderAl MED",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/80823-sideral-med-28-bustine-8033011160908.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-10096-floridral",
+   "prodotto": "FLORIDRAL",
+   "fonte": "https://www.tuttofarma.it/fermenti-lattici-stomaco-e-disturbi-intestinali/705-floridral-6-bustine.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-10226-dicodral-liquido",
+   "prodotto": "Dicodral liquido",
+   "fonte": "https://www.tuttofarma.it/prodotti-per-diarrea/121424-dicodral-12-bustine-8033300199633.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-10629-pku-lophlex-sensation",
+   "prodotto": "PKU Lophlex Sensation",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/228590-pku-lophlex-sensation-frutti-rossi-36-pezzi-109-g-5016533646139.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-10727-dicodral-forte",
+   "prodotto": "DICODRAL FORTE",
+   "fonte": "https://www.tuttofarma.it/elettroliti-e-sali-reidratanti/27870-dicodral-forte-reidratante-per-diarrea-e-vomito-12-bustine-8033300199619.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-1077-isosource-protein",
+   "prodotto": "ISOSOURCE PROTEIN",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/49790-isosource-protein-vaniglia-500-ml-7613034077714.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-10821-meritene-protein-neutro",
+   "prodotto": "MERITENE PROTEIN NEUTRO",
+   "fonte": "https://www.tuttofarma.it/integratori-per-la-massa-muscolare-negli-anziani/6812-nestle-meritene-protein-con-proteine-e-vitamine-270g-gusto-vaniglia-8445290332875.html",
+   "stato": "ok"
+  },
   {
    "chiave": "E-10915-gel-clear",
    "prodotto": "GEL'CLEAR",
@@ -8,9 +50,81 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-1098-xp-maxamum-gusto-arancia",
+   "prodotto": "XP MAXAMUM gusto arancia",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/227810-xp-maxamum-polvere-arancia-500-g-5016533634044.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-11237-mioamin-effe",
+   "prodotto": "MIOAMIN EFFE",
+   "fonte": "https://dmffoodar.it/prodotto/mioamin-effe-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-11281-xphe-minis",
+   "prodotto": "XPhe minis",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/213659-xphe-minis-30-buste-da-24-compresse.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-11515-reidrato",
+   "prodotto": "REIDRATO",
+   "fonte": "https://www.tuttofarma.it/vitamine-e-sali-minerali/186924-reidrato-integratore-idrosalino-per-reidratazione-12-bustine-da-65-g-8051128639292.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-11560-pvs34",
+   "prodotto": "PVS34",
+   "fonte": "https://www.tuttofarma.it/rimborsati-ssn/73492-pvs34-integratore-per-mal-nutrizione-14-bustine-8059973670125.html",
+   "stato": "citazione non più presente"
+  },
+  {
+   "chiave": "E-11678-fortini-creamy-fruit-multi-fibre-vari-gusti",
+   "prodotto": "Fortini Creamy Fruit Multi Fibre vari gusti",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-difficolta-di-deglutizione-e-disfagia/59682-nutricia-fortini-creamy-fruit-multi-fibre-gusto-frutti-gialli-4x100g-8716900563270.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-120-alfare",
+   "prodotto": "ALFARE'",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/65976-alfare-400g-7613036064781.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-12271-neutrafenil-micro-r",
+   "prodotto": "Neutrafenil micro R",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/227988-neutrafenil-micro-r-4-barattoli-110-g-8032551580627.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-12341-nutilis-complete-vari-gusti",
    "prodotto": "Nutilis Complete vari gusti",
    "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-125-modulen-ibd",
+   "prodotto": "MODULEN IBD",
+   "fonte": "https://www.nestlehealthscience.it/prodotti/modulen-ibd",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-12731-eflors-idra",
+   "prodotto": "EFLORS IDRA",
+   "fonte": "https://www.tuttofarma.it/integratori-energizzanti/111032-eflors-idra-10-bustine-x-10-ml.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-128-afenil-gmp-up-shake-vari-gusti",
+   "prodotto": "Afenil GMP UP shake vari gusti",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/220127-afenil-gmp-up-shake-milk-30-bustine-8032551581198.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-133-loprofin-wafers-gusto-cioccolato",
+   "prodotto": "Loprofin Wafers gusto cioccolato",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/39413-loprofin-wafers-cioccolato-150-g-5016533628029.html",
    "stato": "ok"
   },
   {
@@ -26,9 +140,153 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-13390-am-plus",
+   "prodotto": "AM PLUS",
+   "fonte": "https://dmffoodar.it/prodotto/am-plus-2/",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-135-fresubin-2-kcal-creme-gusti-cappuccino-fragola-d",
    "prodotto": "Fresubin 2 kcal creme - gusti: cappuccino, fragola di bosco",
    "fonte": "https://www.fresenius-kabi.com/gb/healthcare-professional-area/clinical-nutrition/enteral-nutrition/dysphagia-products/fresubin-2kcal-creme",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-138-nutrison-advanced-peptisorb",
+   "prodotto": "Nutrison Advanced Peptisorb",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/67833-nutrison-advanced-peptisorb-1-litro-cb-8716900573781.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-139-lp-ringlets",
+   "prodotto": "LP RINGLETS",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/50576-lp-ringlets-cereali-cioccolato-250-g-4003053094718.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-13967-glaucovis",
+   "prodotto": "GLAUCOVIS",
+   "fonte": "https://www.tuttofarma.it/integratori-per-la-vista/65626-glaucovis-integratore-per-glaucoma-30-capsule-softgel-3830070471106.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-140-fresubin-2-kcal-drink-gusti-frutti-di-bosco-capp",
+   "prodotto": "Fresubin 2 kcal drink gusti: Frutti di bosco; Cappuccino; Vaniglia",
+   "fonte": "https://www.tuttofarma.it/sostitutivi-pasto-e-sazianti/136080-fresubin-2-kcal-drink-cappuccino-4-flaconi-x-200-ml-4051895057637.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-14002-infasource",
+   "prodotto": "INFASOURCE",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-bambini/68532-infasource-dshl003-1-32-x-90-ml-7613035279469.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-14134-resource-diabet-plus",
+   "prodotto": "RESOURCE DIABET PLUS",
+   "fonte": "https://www.tuttofarma.it/integratori-per-il-controllo-della-glicemia/66380-resource-diabet-plus-vaniglia-4-x-200-ml-7613035190337.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-143-bbmilk-riso-pro-0-12",
+   "prodotto": "BBmilk RISO PRO 0-12",
+   "fonte": "https://www.tuttofarma.it/latte-ipoallergenico-e-idrolisato-ha/65219-bbmilk-riso-pro-0-12-400g-8032749650514.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-147-pku-2-mix",
+   "prodotto": "PKU 2 MIX",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/207311-pku-2-mix-400-g-4008976595557.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-14777-nutrini-peptisorb-energy",
+   "prodotto": "Nutrini Peptisorb Energy",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-bambini/80518-nutrini-peptisorb-energy-500-ml-bottiglia-collassabile-8716900574429.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-14824-delical-cereales-instant-vari-gusti",
+   "prodotto": "DELICAL CEREALES INSTANT VARI GUSTI",
+   "fonte": "https://dmffoodar.it/prodotto/delical-cereales-instant/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-149-loprofin-farina",
+   "prodotto": "Loprofin Farina",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/195428-loprofin-farina-mix-alimento-ipoproteico-per-esigenze-dietetiche-500-g-8716900592034.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-15012-msud-medimicro-3h",
+   "prodotto": "MSUD medimicro 3H",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/141205-msud-medimicro-3h-4-barattoli-da-110-g-8032551580665.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-151-afenil-squash-15-berries",
+   "prodotto": "AFENIL SQUASH 15 BERRIES",
+   "fonte": "https://www.tuttofarma.it/bevande-aproteiche/146721-afenil-squash-15-berries-30-buste-8032551580320.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-1514-sno-pro-drink",
+   "prodotto": "SNO PRO DRINK",
+   "fonte": "https://www.tuttofarma.it/bevande-aproteiche/68533-loprofin-sno-pro-drink-200-ml-x-27-pezzi-5016533647402.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-154-cholesterol-module",
+   "prodotto": "Cholesterol module",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/207689-cholesterol-module-450-g-5016533633887.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-1542-nepro-lp-220-ml-vaniglia",
+   "prodotto": "Nepro LP - 220 ml - Vaniglia",
+   "fonte": "https://www.tuttofarma.it/sostitutivi-pasto-e-sazianti/6798-nepro-lp-vaniglia-integratore-per-pazienti-con-problemi-renali-220-ml-8710428002983.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-15424-keto-plus-biscotto-vaniglia-limone",
+   "prodotto": "Keto Plus biscotto vaniglia limone",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-crackers-senza-glutine/226360-keto-plus-biscotto-cacao-250-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-15425-keto-plus-biscotto-naturale",
+   "prodotto": "Keto Plus biscotto naturale",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-crackers-senza-glutine/226360-keto-plus-biscotto-cacao-250-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-1543-ensure-plus-4-x-200-ml-bottiglia-vaniglia",
+   "prodotto": "Ensure PLUS - 4 x 200 ml (Bottiglia) - Vaniglia",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/4602-ensure-plus-neutro-alimento-senza-glutine-500-ml-8710428009630.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-156-lh-viola",
+   "prodotto": "LH VIOLA",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/151858-lh-viola-alimento-iperproteico-per-malnutrizione-gusto-neutro-500g-8057729460006.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-15684-vitaflo-pku-sphere",
+   "prodotto": "VITAFLO - PKU SPHERE",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/235510-vitaflo-pku-sphere-20-liquid-vaniglia-15-bottigliette-da-237-ml-con-zucchero-ed-edulcorante-5060385944882.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-15758-formulat-ac",
+   "prodotto": "FORMULAT AC",
+   "fonte": "https://www.tuttofarma.it/latte-anti-coliche-e-anti-stipsi/39864-formulat-ac-brick-500-ml.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-159-ulk-bcaa",
+   "prodotto": "ULK BCAA",
+   "fonte": "https://dmffoodar.it/prodotto/ulk-bcaa/",
    "stato": "ok"
   },
   {
@@ -38,9 +296,81 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-16120-mma-pa-medi-15",
+   "prodotto": "MMA/PA medi 15",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/216716-mma-pa-medi-15-30-bustine-da-25g-8032551580856.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16143-tyr-medimicro-3h",
+   "prodotto": "TYR medimicro 3H",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/134296-tyr-medimicro-3h-4-barattoli-da-110-g-8032551580689.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16244-protipulse",
+   "prodotto": "PROTIPULSE",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/213277-protipulse-polvere-proteica-sieroproteine-550-g-3701052000402.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16315-prother-5",
+   "prodotto": "PROTHER 5",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-contrastare-perdita-di-peso-e-massa-muscolare/57040-prother-5-14-bustine.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16317-bbmilk-ar-polvere",
+   "prodotto": "BBmilk AR polvere",
+   "fonte": "https://www.tuttofarma.it/latte-dai-6-mesi/64105-bbmilk-ar-polvere-400-g-8032749650415.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16318-bbmilk-zero-liquido",
+   "prodotto": "BBmilk Zero liquido",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/69497-bbmilk-zero-liquido-500-ml-8032749650255.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-16780-am-gel-cup-vari-gusti",
    "prodotto": "AM GEL CUP VARI GUSTI",
    "fonte": "https://dmffoodar.it/prodotto/am-gel-cup-zucchero/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16793-amino-ther-pro",
+   "prodotto": "Amino-Ther PRO",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/82730-amino-ther-pro-30-bustine-8021756001679.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16796-glutam-ther",
+   "prodotto": "GLUTAM-THER",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/222292-glutam-ther-30-buste-da-25-g-8021756001709.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16801-protonic-s",
+   "prodotto": "PROTONIC S",
+   "fonte": "https://www.tuttofarma.it/ricostituenti-ed-energizzanti/82400-protonic-s-210-g-8032200030152.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16914-barilife-proteine",
+   "prodotto": "BARILIFE PROTEINE",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/184839-barilife-proteine-cioccolato-450-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-16925-resource-junior-fibre",
+   "prodotto": "RESOURCE JUNIOR FIBRE",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/58631-resource-junior-fibre-fragola-200-ml-4-pezzi-7613034727046.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-171-pku-2-secunda",
+   "prodotto": "PKU 2 SECUNDA",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/228255-pku-2-secunda-500-g-5016533648645.html",
    "stato": "ok"
   },
   {
@@ -50,15 +380,207 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-173-xp-maxamum-gusto-neutro",
+   "prodotto": "XP MAXAMUM gusto neutro",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/227810-xp-maxamum-polvere-arancia-500-g-5016533634044.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-179-nutridrink-vari-gusti",
+   "prodotto": "Nutridrink vari gusti",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/54920-nutricia-nutridrink-cioccolato-supplemento-nutrizionale-4x200ml-8712400152006.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-18116-mioamin-silver",
+   "prodotto": "MIOAMIN Silver",
+   "fonte": "https://dmffoodar.it/prodotto/mioamin-silver/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-183-xmet-xcys-maxamaid",
+   "prodotto": "XMET XCYS Maxamaid",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/207688-xmet-xcys-maxamaid-500-g-5016533631845.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-1849-fresubin-energy",
+   "prodotto": "Fresubin Energy",
+   "fonte": "https://www.tuttofarma.it/sostitutivi-pasto-e-sazianti/211206-fresubin-energy-500-ml-4051895024042.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-189-my-snack-ovissimo",
+   "prodotto": "My Snack Ovissimo",
+   "fonte": "https://www.tuttofarma.it/farine-aproteiche/185691-my-snack-ovissimo-200-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19526-calorinut",
+   "prodotto": "CALORINUT",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/215748-calorinut-600-g-3701052002673.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19527-protinut",
+   "prodotto": "PROTINUT",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/208649-protinut-500-g-3701052009979.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19535-n5-al",
+   "prodotto": "N5 AL",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/132920-n5-al-polvere-350-g-8032459305827.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19543-kanso-ketoepi-4-1-classic",
+   "prodotto": "Kanso KetoEpi 4:1 classic",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/190984-kanso-ketoepi-4-1-classic-24-bottiglie-da-200-ml-8008698034729.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19544-kanso-ketoepi-2-1",
+   "prodotto": "Kanso KetoEpi 2:1",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/221868-kanso-ketoepi-2-1-24-pezzi-da-200-ml-8008698034064.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19545-kanso-mct-oil-100-mct-30x6g",
+   "prodotto": "Kanso MCT Oil 100% MCT 30x6g",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/222185-kanso-mct-oil-100-30-bustine-da-6-g-8008698035405.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19555-hyperdrink-2kcal-albicocca",
+   "prodotto": "HYPERDRINK 2KCAL ALBICOCCA",
+   "fonte": "https://www.tuttofarma.it/integratori-vari-e-monocomponenti/121884-hyperdrink-2kcal-cioccolato-4x200-ml-3701052009573.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19556-hyperdrink-2kcal-caffe",
+   "prodotto": "HYPERDRINK 2KCAL CAFFE'",
+   "fonte": "https://www.tuttofarma.it/integratori-vari-e-monocomponenti/121884-hyperdrink-2kcal-cioccolato-4x200-ml-3701052009573.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19557-hyperdrink-2kcal-caramello",
+   "prodotto": "HYPERDRINK 2KCAL CARAMELLO",
+   "fonte": "https://www.tuttofarma.it/integratori-vari-e-monocomponenti/121884-hyperdrink-2kcal-cioccolato-4x200-ml-3701052009573.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19558-hyperdrink-2kcal-cioccolato",
+   "prodotto": "HYPERDRINK 2KCAL CIOCCOLATO",
+   "fonte": "https://www.tuttofarma.it/integratori-vari-e-monocomponenti/121884-hyperdrink-2kcal-cioccolato-4x200-ml-3701052009573.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19559-hyperdrink-2kcal-frutti-rossi",
+   "prodotto": "HYPERDRINK 2KCAL FRUTTI ROSSI",
+   "fonte": "https://www.tuttofarma.it/con-immagine/221663-hyperdrink-2kcal-frutti-rossi-4x200-ml-3701052009603.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19560-hyperdrink-2kcal-vaniglia",
+   "prodotto": "HYPERDRINK 2KCAL VANIGLIA",
+   "fonte": "https://www.tuttofarma.it/integratori-vari-e-monocomponenti/121884-hyperdrink-2kcal-cioccolato-4x200-ml-3701052009573.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19598-fresubin-pro-drink-vari-gusti",
+   "prodotto": "Fresubin PRO Drink vari gusti",
+   "fonte": "https://www.tuttofarma.it/sostitutivi-pasto-e-sazianti/221850-fresubin-pro-drink-nocciola-4-flaconi-x-200-ml-4051895027777.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19600-diaba-hp",
+   "prodotto": "DIABA HP",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/220126-diaba-hp-cacao-24x200-ml-8431092020232.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19602-aprome-grissini",
+   "prodotto": "Apromé Grissini",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/153144-aprome-grissini-80-g-8028169208510.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19607-aprome-pane-bianco-a-fette",
+   "prodotto": "Apromé Pane bianco a fette",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/165142-aprome-pane-bianco-fette-taglio-prezzo-300-g-8028169209432.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19609-aprome-pasta",
+   "prodotto": "Apromé Pasta",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/214773-aprome-pasta-anellini-500-g-8028169208619.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-19609-nutilis-aqua-gel-essential",
    "prodotto": "Nutilis Aqua Gel Essential",
    "fonte": "https://farmaciaigea.com/nutilis-aqua-gel-ara-4pz",
    "stato": "ok"
   },
   {
+   "chiave": "E-19610-aprome-piadina",
+   "prodotto": "Apromé Piadina",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/228501-aprome-piadina-180-g-8028169208503.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-19612-ensure-multi-thick",
    "prodotto": "Ensure Multi-thick",
    "fonte": "https://farmaciaigea.com/ensure-multi-thick-250g",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19618-aprome-dolce-di-natale",
+   "prodotto": "Apromé - Dolce di Natale",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/181634-aprome-dolce-di-natale-650-g-8028169209296.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19624-baking-mix",
+   "prodotto": "BAKING MIX",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/215160-kanso-keto-baking-mix-350-g-8008698034965.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19630-fondo-precotto-per-pizza-aproteico",
+   "prodotto": "Fondo precotto per pizza aproteico",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/3915-giuliani-giusto-fondo-precotto-per-pizza-aproteico-200g-8005297009349.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19636-novalac-allernova-pro",
+   "prodotto": "Novalac Allernova PRO",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/72307-novalac-allernova-pro-400-g-8050519010092.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19640-promin-salsa-al-formaggio",
+   "prodotto": "Promin Salsa al Formaggio",
+   "fonte": "https://adaptapharma.it/shop/promin-salsa-al-formaggio",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19642-promin-snack-al-cioccolato-e-mirtilli-rossi",
+   "prodotto": "Promin Snack al Cioccolato e Mirtilli Rossi",
+   "fonte": "https://adaptapharma.it/shop/promin-snack-al-cioccolato-e-mirtilli-rossi",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19643-promin-snack-alle-banane",
+   "prodotto": "Promin Snack alle Banane",
+   "fonte": "https://adaptapharma.it/shop/promin-snack-alle-banane",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19661-bonami-crostini",
+   "prodotto": "BONAMI' CROSTINI",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/229112-bonami-crostini-150-g.html",
    "stato": "ok"
   },
   {
@@ -140,6 +662,12 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-19681-bbmilk-pdf-liquido",
+   "prodotto": "BBmilk PDF liquido",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/120802-bbmilk-pdf-liquido-500ml-8032749650811.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-19681-dysphameal-gusto-cheesecake-ai-mirtilli",
    "prodotto": "DYSPHAMEAL - GUSTO CHEESECAKE AI MIRTILLI",
    "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
@@ -152,9 +680,75 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-19688-ensure-plus-4-x-200-ml-bottiglia-cioccolato",
+   "prodotto": "Ensure PLUS - 4 x 200 ml (Bottiglia) - Cioccolato",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/4602-ensure-plus-neutro-alimento-senza-glutine-500-ml-8710428009630.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19689-ensure-plus-4-x-200-ml-bottiglia-frutti-di-bosco",
+   "prodotto": "Ensure PLUS - 4 x 200 ml (Bottiglia) - Frutti di bosco",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/4602-ensure-plus-neutro-alimento-senza-glutine-500-ml-8710428009630.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19690-ensure-plus-4-x-200-ml-bottiglia-banana",
+   "prodotto": "Ensure PLUS - 4 x 200 ml (Bottiglia) - Banana",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/4602-ensure-plus-neutro-alimento-senza-glutine-500-ml-8710428009630.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19691-ensure-plus-4-x-200-ml-bottiglia-fragola",
+   "prodotto": "Ensure PLUS - 4 x 200 ml (Bottiglia) - Fragola",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/4602-ensure-plus-neutro-alimento-senza-glutine-500-ml-8710428009630.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19692-ensure-plus-drink-200-ml-cioccolato",
+   "prodotto": "Ensure PLUS Drink - 200 ml - Cioccolato",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/163887-ensure-plus-drink-supplementazione-orale-gusto-cacao-200-ml-8710428025548.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19693-ensure-plus-drink-200-ml-frutti-di-bosco",
+   "prodotto": "Ensure PLUS Drink - 200 ml - Frutti di bosco",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/163887-ensure-plus-drink-supplementazione-orale-gusto-cacao-200-ml-8710428025548.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19694-ensure-plus-drink-200-ml-vaniglia",
+   "prodotto": "Ensure PLUS Drink - 200 ml - Vaniglia",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/163887-ensure-plus-drink-supplementazione-orale-gusto-cacao-200-ml-8710428025548.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19695-ensure-plus-drink-200-ml-banana",
+   "prodotto": "Ensure PLUS Drink - 200 ml - Banana",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/163887-ensure-plus-drink-supplementazione-orale-gusto-cacao-200-ml-8710428025548.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19696-ensure-plus-drink-200-ml-fragola",
+   "prodotto": "Ensure PLUS Drink - 200 ml - Fragola",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/163887-ensure-plus-drink-supplementazione-orale-gusto-cacao-200-ml-8710428025548.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-19699-dysphameal-gusto-creme-caramel",
    "prodotto": "DYSPHAMEAL - GUSTO CREME CARAMEL",
    "fonte": "https://dysphameal.com/product/manzo-brasato-2/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19699-nepro-hp-220-ml-fragola",
+   "prodotto": "Nepro HP - 220 ml - Fragola",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/6796-nepro-hp-vaniglia-integratore-per-pazienti-con-problemi-renali-220-ml-8710428002969.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-197-pku-anamix-junior-gusto-neutro",
+   "prodotto": "PKU Anamix Junior gusto neutro",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/232657-pku-anamix-junior-liquid-frutti-bosco-36-pezzi-5016533630961.html",
    "stato": "ok"
   },
   {
@@ -182,6 +776,60 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-19703-amino-mini-baguette",
+   "prodotto": "Amino' Mini Baguette",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/129843-amino-mini-baguette-3-pezzi-da-50-g-8015990841108.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19705-aprome-bisco-vaniglia",
+   "prodotto": "Apromé - BISCO VANIGLIA",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/160876-aprome-bisco-vaniglia-120-g-8020169208828.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19707-aprome-fette-biscottate",
+   "prodotto": "Apromé - FETTE BISCOTTATE",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/228875-aprome-fette-biscottate-4-monoporzioni-da-25-g-8028169209678.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19708-aprome-frollini",
+   "prodotto": "Apromé - FROLLINI",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/224210-aprome-frollini-180-g-8028169208541.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19720-aprome-frollini-con-mirtilli",
+   "prodotto": "Apromé - FROLLINI CON MIRTILLI",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/224210-aprome-frollini-180-g-8028169208541.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19721-aprome-fette-tostate",
+   "prodotto": "Apromé - FETTE TOSTATE",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/231088-aprome-fette-tostate-6-porzioni-da-25-g-8028169208640.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19726-cremeline-ultra-cioccolato",
+   "prodotto": "CREMELINE ULTRA CIOCCOLATO",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/213274-cremeline-ultra-vaniglia-caramello-24x125g-3701052002802.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19727-cremeline-ultra-vaniglia-caramello",
+   "prodotto": "CREMELINE ULTRA VANIGLIA-CARAMELLO",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/213274-cremeline-ultra-vaniglia-caramello-24x125g-3701052002802.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19728-cremeline-ultra-caffe",
+   "prodotto": "CREMELINE ULTRA CAFFE'",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/213274-cremeline-ultra-vaniglia-caramello-24x125g-3701052002802.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-19729-meritene-pure-instant-crema-di-patate",
    "prodotto": "MERITENE PURE' INSTANT - CREMA DI PATATE",
    "fonte": "https://www.1000farmacie.it/meritene-pure-instant-vit-ver.html",
@@ -194,9 +842,231 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-19733-prosure-220-ml-gusto-cioccolato",
+   "prodotto": "ProSure - 220 ml - Gusto Cioccolato",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/6912-prosure-integratore-iperproteico-220-ml-gusto-vaniglia-8710428001528.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-19733-thicken-up-protein-shake",
    "prodotto": "THICKEN UP PROTEIN SHAKE",
    "fonte": "https://www.nestlehealthscience.it/prodotti/thicken-up/protein-shake",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19734-prosure-220-ml-gusto-banana",
+   "prodotto": "ProSure - 220 ml - Gusto Banana",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/6912-prosure-integratore-iperproteico-220-ml-gusto-vaniglia-8710428001528.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19735-natalbimbo-24",
+   "prodotto": "NATALBIMBO 24%",
+   "fonte": "https://www.tuttofarma.it/accessori-vari-per-bambini/215503-natalbimbo-24-10-fiale-da-2-ml.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19735-prosure-4-x-220-ml-gusto-caffe",
+   "prodotto": "ProSure - 4 x 220 ml - Gusto Caffè",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/6912-prosure-integratore-iperproteico-220-ml-gusto-vaniglia-8710428001528.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19736-prosure-4-x-220-ml-gusto-banana",
+   "prodotto": "ProSure - 4 x 220 ml - Gusto Banana",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/6912-prosure-integratore-iperproteico-220-ml-gusto-vaniglia-8710428001528.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19737-prosure-4-x-220-ml-gusto-cioccolato",
+   "prodotto": "ProSure - 4 x 220 ml - Gusto Cioccolato",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/6912-prosure-integratore-iperproteico-220-ml-gusto-vaniglia-8710428001528.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19738-prosure-4-x-220-ml-gusto-vaniglia",
+   "prodotto": "ProSure - 4 x 220 ml - Gusto Vaniglia",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/6912-prosure-integratore-iperproteico-220-ml-gusto-vaniglia-8710428001528.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19740-alfamino",
+   "prodotto": "ALFAMINO",
+   "fonte": "https://www.tuttofarma.it/latte-ipoallergenico-e-idrolisato-ha/111574-alfamino-polvere-400-g-8000300415216.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19761-gellymed-addensante-istantaneo-per-bevande-e-ali",
+   "prodotto": "GellyMed Addensante istantaneo per bevande e alimenti",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19762-sterilidrum",
+   "prodotto": "Sterilidrum",
+   "fonte": "https://www.tuttofarma.it/fermenti-lattici-stomaco-e-disturbi-intestinali/134083-sterilidrum-250-ml-8032459305841.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19773-amino-i-frollini-latte-e-vaniglia",
+   "prodotto": "Amino' I Frollini latte e vaniglia",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/135427-amino-i-frollini-latte-van200g-8015990841245.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19774-glutred",
+   "prodotto": "GLUTRED",
+   "fonte": "https://errekappa.it/prodotti/glutred/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19779-sarcobase",
+   "prodotto": "SARCOBASE",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-contrastare-perdita-di-peso-e-massa-muscolare/124197-sarcobase-integratore-per-muscoli-30-bustine-8056515860914.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19782-salireid",
+   "prodotto": "SALIREID",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/163687-salireid-12-bustine-da-7-g-8032749650880.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19783-promin-snack-ai-mirtilli-rossi",
+   "prodotto": "Promin Snack ai Mirtilli Rossi",
+   "fonte": "https://adaptapharma.it/shop/promin-snack-al-cioccolato-e-mirtilli-rossi",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19784-promin-snack-alle-mele-e-cannella",
+   "prodotto": "Promin Snack alle Mele e Cannella",
+   "fonte": "https://adaptapharma.it/shop/promin-snack-alle-mele-e-cannella",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19785-promin-budino-alle-banane",
+   "prodotto": "Promin Budino alle Banane",
+   "fonte": "https://adaptapharma.it/shop/promin-budino-alle-banane",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19786-promin-budino-al-cioccolato",
+   "prodotto": "Promin Budino al Cioccolato",
+   "fonte": "https://adaptapharma.it/shop/promin-budino-al-cioccolato",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19787-promin-budino-alle-mele",
+   "prodotto": "Promin Budino alle Mele",
+   "fonte": "https://adaptapharma.it/shop/promin-budino-alle-mele",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19788-promin-budino-alla-panna",
+   "prodotto": "Promin Budino alla Panna",
+   "fonte": "https://adaptapharma.it/shop/promin-budino-alla-panna",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19789-glucerna-sr-220-ml-gusto-cioccolato",
+   "prodotto": "Glucerna SR - 220 ml - Gusto cioccolato",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/40300-glucerna-sr-vaniglia-220-ml-8710428996923.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19789-promin-pappa-di-cereali-alle-mele",
+   "prodotto": "Promin Pappa di Cereali alle Mele",
+   "fonte": "https://adaptapharma.it/shop/promin-pappa-di-cereali-alle-mele",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19790-glucerna-sr-220-ml-gusto-fragola",
+   "prodotto": "Glucerna SR - 220 ml - Gusto fragola",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/40300-glucerna-sr-vaniglia-220-ml-8710428996923.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19790-promin-pappa-di-cereali-alle-fragole",
+   "prodotto": "Promin Pappa di Cereali alle Fragole",
+   "fonte": "https://adaptapharma.it/shop/promin-pappa-di-cereali-alle-fragole",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19791-promin-pappa-di-cereali-alle-banane",
+   "prodotto": "Promin Pappa di Cereali alle Banane",
+   "fonte": "https://adaptapharma.it/shop/promin-pappa-di-cereali-alle-banane",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19792-promin-pappa-di-cereali",
+   "prodotto": "Promin Pappa di Cereali",
+   "fonte": "https://adaptapharma.it/shop/promin-pappa-di-cereali-alle-fragole",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19793-promin-dessert-crema-al-caramello",
+   "prodotto": "Promin Dessert Crema al Caramello",
+   "fonte": "https://adaptapharma.it/shop/promin-dessert-crema-fragole-e-vaniglia",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19794-promin-dessert-crema-pasticcera",
+   "prodotto": "Promin Dessert Crema Pasticcera",
+   "fonte": "https://adaptapharma.it/shop/promin-dessert-crema-pasticcera",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19795-promin-dessert-crema-fragole-e-vaniglia",
+   "prodotto": "Promin Dessert Crema Fragole e Vaniglia",
+   "fonte": "https://adaptapharma.it/shop/promin-dessert-crema-fragole-e-vaniglia",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19796-promin-dessert-crema-cioccolato-e-banane",
+   "prodotto": "Promin Dessert Crema Cioccolato e Banane",
+   "fonte": "https://adaptapharma.it/shop/promin-dessert-crema-cioccolato-e-banane",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19798-promin-pure-bacon-e-crostini",
+   "prodotto": "Promin Purè Bacon e Crostini",
+   "fonte": "https://adaptapharma.it/shop/promin-pure-cipolle-e-crostini",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19799-promin-pure-cipolle-e-crostini",
+   "prodotto": "Promin Purè Cipolle e Crostini",
+   "fonte": "https://adaptapharma.it/shop/promin-pure-cipolle-e-crostini",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19801-promin-pancake-mix",
+   "prodotto": "Promin Pancake Mix",
+   "fonte": "https://adaptapharma.it/shop/promin-pancake-mix",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19802-fondo-pizza-aproteico",
+   "prodotto": "FONDO PIZZA APROTEICO",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/224013-giusto-aproteico-fondo-pizza-200-g-8058481483302.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19802-promin-omelette-mix",
+   "prodotto": "Promin Omelette Mix",
+   "fonte": "https://adaptapharma.it/shop/promin-omelette-mix",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19815-aminotrofic-hde",
+   "prodotto": "AMINOTROFIC HDE",
+   "fonte": "https://errekappa.it/prodotti/aminotrofic-hde/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19818-novalac-aminova",
+   "prodotto": "NOVALAC Aminova",
+   "fonte": "https://www.tuttofarma.it/latte-per-neonati/122309-novalac-aminova-af-400-g-8050519010108.html",
    "stato": "ok"
   },
   {
@@ -215,6 +1085,228 @@
    "chiave": "E-19830-cremeline-sl-cioccolato",
    "prodotto": "CREMELINE SL CIOCCOLATO",
    "fonte": "https://www.tuttofarma.it/sostituti-pasto/44458-cremeline-senza-lattosio-crema-per-deglutire-alla-vaniglia-4-x-125g-3401252050893.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19833-vitaflo-pku-sphere-liquid",
+   "prodotto": "VITAFLO - PKU SPHERE LIQUID",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/235510-vitaflo-pku-sphere-20-liquid-vaniglia-15-bottigliette-da-237-ml-con-zucchero-ed-edulcorante-5060385944882.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19839-atempero",
+   "prodotto": "ATEMPERO",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/230592-atempero-oral-vaniglia-24x200ml-8431092036073.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-1984-sineamin",
+   "prodotto": "Sineamin",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/75897-sineamin-fusilli-500-g-8032551580283.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19850-kanso-ketoepi-2-1-creamy",
+   "prodotto": "Kanso KetoEpi 2:1 creamy",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/236234-kanso-ketoepi-creamy-2-1-alimento-chetogenico-gusto-cacao-24-flaconi-da-200-ml-8008698038079.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-19854-nidinacare-hydrate-liquido",
+   "prodotto": "NIDINACARE HYDRATE - liquido",
+   "fonte": "https://www.tuttofarma.it/latte-per-neonati/215605-nidinacare-hydrate-4-brik-da-200-ml-grafola-8445292066860.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-199-nutridrink-compact-gusto-neutro",
+   "prodotto": "Nutridrink compact gusto neutro",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/54473-nutridrink-compact-caffe-integratore-energetico-4x125ml-8716900589102.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2-n5-0",
+   "prodotto": "N5 0",
+   "fonte": "https://www.tuttofarma.it/integratori-per-gravidanza/132918-n5-0-500-ml-8032459305537.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20007-milco-bevanda-aproteica-gusto-neutro",
+   "prodotto": "MILCO BEVANDA APROTEICA GUSTO NEUTRO",
+   "fonte": "https://www.tuttofarma.it/bevande-aproteiche/76545-milco-bevanda-aproteica-6-bottiglie-200-ml-8032551581075.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20009-milco-cappuccino-bevanda-aproteica",
+   "prodotto": "MILCO CAPPUCCINO BEVANDA APROTEICA",
+   "fonte": "https://www.tuttofarma.it/bevande-aproteiche/76545-milco-bevanda-aproteica-6-bottiglie-200-ml-8032551581075.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20014-fortiral",
+   "prodotto": "FORTIRAL",
+   "fonte": "https://www.tuttofarma.it/supporto-muscolare-e-recupero/67914-fortiral-30-bustine.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20026-bonami-crostini",
+   "prodotto": "BONAMI' CROSTINI",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/229112-bonami-crostini-150-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20029-numefen-gel",
+   "prodotto": "NUMEFEN GEL",
+   "fonte": "https://dmfmetabolic.it/prodotto/numefen-gel/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20034-camidra",
+   "prodotto": "Camidra",
+   "fonte": "https://www.tuttofarma.it/integratori-per-depurazione/136397-camidra-20-stick-pack.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20053-ferro-forte",
+   "prodotto": "FERRO FORTE",
+   "fonte": "https://www.tuttofarma.it/integratori-di-ferro/59765-pirofer-forte-integratore-di-ferro-30-compresse.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20054-pane-bianco-aproteico",
+   "prodotto": "Pane bianco aproteico",
+   "fonte": "https://www.tuttofarma.it/altri-alimenti-senza-glutine/8253-mevalia-pan-carre-pane-bianco-aproteico-a-fette-400g-2x200g-8008698007532.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20066-idraped-60-bustine",
+   "prodotto": "IdraPed 60 Bustine",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/54164-idraped-10-bustine.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20073-protipulse-cioccolato",
+   "prodotto": "PROTIPULSE CIOCCOLATO",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/213277-protipulse-polvere-proteica-sieroproteine-550-g-3701052000402.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20074-resource-whey-protein",
+   "prodotto": "RESOURCE WHEY PROTEIN",
+   "fonte": "https://www.tuttofarma.it/proteine-in-polvere/67840-resource-whey-protein-neutro-300-g-7613034924483.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20077-diaba-hp-cacao",
+   "prodotto": "DIABA HP CACAO",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/220126-diaba-hp-cacao-24x200-ml-8431092020232.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20078-diaba-hp-vaniglia",
+   "prodotto": "DIABA HP VANIGLIA",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/220126-diaba-hp-cacao-24x200-ml-8431092020232.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20087-pku-gmpro-mix-in",
+   "prodotto": "PKU GMPro Mix-In",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/228502-pku-gmpro-mix-in-30-bustine-5016533658293.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20088-flavis-chocotino",
+   "prodotto": "Flavis Chocotino",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/47584-mevalia-flavis-chocotino-100-g-8008698025284.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20114-flavis-piadina-wrap-aproteica",
+   "prodotto": "Flavis Piadina Wrap aproteica",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/44263-flavis-piadina-wrap-aproteica-3-pezzi-da-80-g-8008698030578.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20115-flavis-crostini-aproteici",
+   "prodotto": "Flavis Crostini aproteici",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/42341-flavis-crostini-aproteici-150-g-8008698025222.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20116-flavis-anellini-aproteici",
+   "prodotto": "Flavis Anellini aproteici",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/139015-flavis-anellini-aproteici-250-g-8008698046319.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20130-xphe-piccos",
+   "prodotto": "XPhe Piccos",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/155105-xphe-piccos-7-pezzi-da-100-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20131-aprome-frollini-cacao",
+   "prodotto": "Apromé - Frollini cacao",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/224210-aprome-frollini-180-g-8028169208541.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20132-kanso-keto-slices-white",
+   "prodotto": "Kanso Keto Slices White",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/215161-kanso-keto-slices-white-210-g-8008698053430.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20133-kanso-keto-baking-mix",
+   "prodotto": "Kanso Keto Baking Mix",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/215160-kanso-keto-baking-mix-350-g-8008698034965.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20136-protipulse",
+   "prodotto": "PROTIPULSE",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/213277-protipulse-polvere-proteica-sieroproteine-550-g-3701052000402.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20138-pku-gmpro-delight",
+   "prodotto": "PKU GMPro Delight",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/232783-pku-gmpro-delight-tropical-20-30-bustine-da-40-g-4008976440529.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20145-flavis-grissini-aproteici",
+   "prodotto": "Flavis Grissini aproteici",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/74351-flavis-grissini-aproteici-3-porzioni-da-50-g-8008698025185.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20146-flavis-fette-tostate-aproteiche",
+   "prodotto": "Flavis Fette Tostate aproteiche",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/41547-flavis-fette-tostate-aproteiche-6-porzioni-da-343-g-8008698029022.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20147-flavis-fette-biscottate-aproteiche",
+   "prodotto": "Flavis Fette Biscottate aproteiche",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/43374-flavis-fette-biscottate-aproteiche-300-g-8008698028643.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20155-kanso-mct-cacao-bar",
+   "prodotto": "Kanso MCT Cacao Bar",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/215431-kanso-mct-cacao-bar-4-barrette-x-25-g-8008698027608.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20156-kanso-champignons-mct-cream",
+   "prodotto": "Kanso Champignons MCT Cream",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/158951-kanso-champignons-mct-cream-130-g-8008698024034.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20157-kanso-mct-cream",
+   "prodotto": "Kanso MCT Cream",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/215423-kanso-mct-cream-128-g-8008698023990.html",
    "stato": "ok"
   },
   {
@@ -272,6 +1364,36 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-20171-kanso-keto-biscuits-cocoa",
+   "prodotto": "Kanso Keto Biscuits Cocoa",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/161021-kanso-keto-biscuits-cocoa-100-g-8008698047880.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20172-bianutris",
+   "prodotto": "BIANUTRIS",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/165531-bianutris-polvere-solubile-14-bustine-x-35g-8056126420019.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20176-aprome-dolce-di-pasqua",
+   "prodotto": "Apromé - Dolce di Pasqua",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/228217-aprome-dolce-pasqua-500-g-8028169209159.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20183-pku-golike-plus-16",
+   "prodotto": "PKU GOLIKE PLUS 16+",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/186254-pku-golike-plus-16-30-bustine-x-315-g-8055035870151.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20184-pku-golike-plus-3-16",
+   "prodotto": "PKU GOLIKE PLUS 3-16",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/186255-pku-golike-plus-3-16-30-bustine-x-24-g-8055035870144.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-20193-thicken-up-fizzy",
    "prodotto": "THICKEN UP FIZZY",
    "fonte": "https://www.nestlehealthscience.it/prodotti/resource/resource-ThickenUp-fizzy",
@@ -296,9 +1418,39 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-20205-flavis-linguine-aproteiche",
+   "prodotto": "Flavis Linguine aproteiche",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/141215-flavis-linguine-aproteiche-500-g-8008698046333.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20206-flavis-rigatoni-aproteici",
+   "prodotto": "Flavis Rigatoni aproteici",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/150525-flavis-rigatoni-aproteici-500-g-8008698046258.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20207-flavis-ditali-aproteici",
+   "prodotto": "Flavis Ditali aproteici",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/138031-flavis-ditali-aproteici-500-g-8008698046272.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20208-flavis-conchigliette-aproteiche",
+   "prodotto": "Flavis Conchigliette aproteiche",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/150522-flavis-conchigliette-aproteiche-500-g-8008698046357.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-20212-cremeline-2kcal-gourmande-vari-gusti",
    "prodotto": "CREMELINE 2KCAL GOURMANDE VARI GUSTI",
    "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/137693--nutrisens-cremeline-2kcal-dessert-ipercalorico-gusto-caffe-4x125gr-3701052008361.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20219-flavis-cracker-aproteici",
+   "prodotto": "Flavis Cracker aproteici",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/102723-flavis-cracker-aproteici-4-porzioni-da-30-g-8008698035269.html",
    "stato": "ok"
   },
   {
@@ -311,6 +1463,72 @@
    "chiave": "E-20223-acqua-gelificata-zuccherata-multifrutto",
    "prodotto": "ACQUA GELIFICATA ZUCCHERATA MULTIFRUTTO",
    "fonte": "https://www.tuttofarma.it/alimenti-dietetici/129656-acqua-gel-pack-acqua-gelificata-zuccherata-arancia-12-x-125-ml-3701052004493.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20225-sarcoact",
+   "prodotto": "SARCOACT",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-contrastare-perdita-di-peso-e-massa-muscolare/186406-sarcoact-30-buste-da-8-g-8054342130019.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20227-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di merluzzo al pomodoro",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20228-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di Babà al Rhum",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20230-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di passato di verdure",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20232-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED -Alimento a fini medici speciali al gusto di prugna e mela",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20234-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di pollo arrosto",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20235-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di risotto di zucca",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20236-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di uova e asparagi",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20237-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED- Alimento a fini medici speciali al gusto di risotto di pesce",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20239-gourmed-alimento-a-fini-medici-speciali-al-gusto",
+   "prodotto": "GOURMED - Alimento a fini medici speciali al gusto di pizza margherita",
+   "fonte": "https://www.medicair.it/aree-terapeutiche/gourmed/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20246-mioamin-g-vari-gusti",
+   "prodotto": "MIOAMIN G VARI GUSTI",
+   "fonte": "https://dmffoodar.it/prodotto/mioamin-g/",
    "stato": "ok"
   },
   {
@@ -344,9 +1562,153 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-20253-salireid-bustine",
+   "prodotto": "SALIREID BUSTINE",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/163687-salireid-12-bustine-da-7-g-8032749650880.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20257-meritene-clinical-drink",
+   "prodotto": "MERITENE CLINICAL DRINK",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/184795-meritene-clinical-drink-cioccolato-200-ml-8445291987159.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20259-aprome-sfoglia-per-lasagne",
+   "prodotto": "Apromé - Sfoglia per lasagne",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/186549-aprome-sfoglia-lasagne-250-g-8028169209425.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20265-aminofrail",
+   "prodotto": "AMINOFRAIL",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/188632-aminofrail-30-bustine-da-14-g-con-edulcorante-senza-glutine-naturalmente-privo-di-lattosio.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-20266-thick-n-instant",
    "prodotto": "THICK-N INSTANT",
    "fonte": "https://errekappa.it/prodotti/thick-n-instant/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20270-diaba-plus-advanced",
+   "prodotto": "DIABA PLUS ADVANCED",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/185717-diaba-plus-advanced-500-ml-8431092037582.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20279-aprome-crema-al-cacao",
+   "prodotto": "Apromè - Crema al cacao",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/235154-aprome-crema-cacao-ipoproteia-200-g-con-edulcorante-8028169209609.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20280-aprome-crostatine-al-cacao",
+   "prodotto": "Apromé - Crostatine al cacao",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/160913-aprome-crostatine-albicocca-4-pezzi-da-50-g-8028169208923.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20283-lh-blu",
+   "prodotto": "LH BLU",
+   "fonte": "https://www.tuttofarma.it/nutrizione-enterale/233903-lh-blu-alimento-iperproteico-malnutrizione-oncologica-500g-8057729460037.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20287-nutridens",
+   "prodotto": "NUTRIDENS",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/188353-nutridens-cappuccino-24-bottiglie-x-200-ml.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20288-ulk-mici-casein-vari-gusti",
+   "prodotto": "ULK MICI CASEIN VARI GUSTI",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/225069-ulk-mici-casein-400-g-senza-glutine-con-zucchero-ed-edulcorante.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20302-keto-plus-base-pizza",
+   "prodotto": "Keto Plus Base pizza",
+   "fonte": "https://www.tuttofarma.it/pane-e-pizza-senza-glutine/226359-keto-plus-base-pizza-100-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20303-barilife-proteine-gusto-neutro",
+   "prodotto": "BARILIFE PROTEINE GUSTO NEUTRO",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/184839-barilife-proteine-cioccolato-450-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20304-barilife-proteine-gusto-cioccolato",
+   "prodotto": "BARILIFE PROTEINE GUSTO CIOCCOLATO",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/184839-barilife-proteine-cioccolato-450-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20309-barilife-proteine-vaniglia",
+   "prodotto": "BARILIFE PROTEINE VANIGLIA",
+   "fonte": "https://www.tuttofarma.it/proteine-ed-aminoacidi/184839-barilife-proteine-cioccolato-450-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20357-aproten-farina-aproteica",
+   "prodotto": "APROTEN FARINA APROTEICA",
+   "fonte": "https://www.tuttofarma.it/farine-aproteiche/4272-aproten-farina-dietetica-aproteica-500-grammi-8001040421222.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20360-aproten-sfilatini-aproteici",
+   "prodotto": "APROTEN SFILATINI APROTEICI",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/4280-aproten-sfilatini-soffici-aproteici-150-grammi-8001040415627.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20430-dens-aqua-gel",
+   "prodotto": "DENS AQUA GEL",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-difficolta-di-deglutizione-e-disfagia/243748-dens-aqua-gel-edulcorata-ribes-nero-24-pezzi-da-125-g-8034108520575.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20431-dens-up",
+   "prodotto": "DENS_UP",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-difficolta-di-deglutizione-e-disfagia/243776-dens-up-fortis-polvere-addensante-barattolo-300-g-8034108520346.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20433-dens-up-fortis",
+   "prodotto": "DENS_UP fortis",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-difficolta-di-deglutizione-e-disfagia/243776-dens-up-fortis-polvere-addensante-barattolo-300-g-8034108520346.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20434-dens-up-velute",
+   "prodotto": "DENS_UP VELUTE",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/209922-dens-up-velute-polvere-addensante-barattolo-430-g-8034108520117.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20435-gel-up-aqua",
+   "prodotto": "GEL_UP AQUA",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-difficolta-di-deglutizione-e-disfagia/243670-gel-up-aqua-addensante-20-bustine-35-g-8034108520018.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20438-maltodex-up",
+   "prodotto": "MALTODEX_UP",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/208761-maltodex-up-barattolo-500-g-8034108520063.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20442-ramin-up",
+   "prodotto": "RAMIN_UP",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/217884-ramin-up-polvere-20-bustine-65-g-8034108520308.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-20449-afenil-gmp-up-shake-gusti-cioccolato-cappuccino",
+   "prodotto": "Afenil GMP UP Shake gusti cioccolato_cappuccino",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/220127-afenil-gmp-up-shake-milk-30-bustine-8032551581198.html",
    "stato": "ok"
   },
   {
@@ -362,9 +1724,243 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-205-maxtrofic",
+   "prodotto": "MAXTROFIC",
+   "fonte": "https://www.tuttofarma.it/integratori-per-la-forza-muscolare/58049-maxtrofic-start-14-bustine.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-206-maxtrofic-start",
+   "prodotto": "MAXTROFIC START",
+   "fonte": "https://www.tuttofarma.it/integratori-per-la-forza-muscolare/58049-maxtrofic-start-14-bustine.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2072-afenil-2",
+   "prodotto": "Afenil 2",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/227137-afenil-2-miscela-aminoacidi-500-g-8032551581068.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2096-cubitan-vari-gusti",
+   "prodotto": "Cubitan vari gusti",
+   "fonte": "https://www.tuttofarma.it/integratori-per-la-salute-delle-ossa/62035-cubitan-fragola-4-x-200-ml-8712400155090.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-211-ulk-mici",
+   "prodotto": "ULK mici",
+   "fonte": "https://dmffoodar.it/prodotto/ulk-mici/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2111-scandishake-vari-gusti",
+   "prodotto": "Scandishake vari gusti",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/120121-scandishake-cioccolato-6-bustine-4008976595373.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2115-scandishake-gusto-cioccolato",
+   "prodotto": "Scandishake gusto cioccolato",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/120121-scandishake-cioccolato-6-bustine-4008976595373.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-212-mellin-polilat-1",
+   "prodotto": "Mellin Polilat 1",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/66177-mellin-polilat-1-latte-polvere-400-g-8718117605705.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2156-nec",
+   "prodotto": "NEC",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/78561-nec-polvere-400-g-8032551581020.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2166-afenil-1",
+   "prodotto": "Afenil 1",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/153320-afenil-1-6-x-200-ml-8032551580641.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-220-glucerna-select-500-ml-gusto-vaniglia",
+   "prodotto": "Glucerna Select - 500 ml - Gusto vaniglia",
+   "fonte": "https://www.tuttofarma.it/alimenti-senza-zuccheri-per-diabetici/76827-glucerna-select-15-kcal-vaniglia-220-ml-8710428001733.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2201-protifar",
+   "prodotto": "Protifar",
+   "fonte": "https://www.nutricia.it/prodotti/protifar/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2210-antifen-arancia",
+   "prodotto": "ANTIFEN ARANCIA",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/227242-antifen-r-572-g-8033447497029.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-222-ensure-plus-advance-rth-500-ml",
+   "prodotto": "Ensure PLUS ADVANCE RTH - 500 ml",
+   "fonte": "https://www.tuttofarma.it/integratori-per-la-salute-delle-ossa/51886-ensure-plus-advance-rth-vaniglia-500-ml-8710428010681.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-226-preaptamil",
+   "prodotto": "Preaptamil",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/72347-preaptamil-pdf-400g-8718117607228.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2292-afenil-gel-neutro",
+   "prodotto": "Afenil Gel Neutro",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/228039-afenil-gel-neutro-30-buste-8032551580481.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-23-novasource-gi-balance",
+   "prodotto": "NOVASOURCE GI BALANCE",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/218469-novasource-gi-balance-500-ml-7613036642828.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-231-abound-gusto-neutro",
+   "prodotto": "Abound - Gusto neutro",
+   "fonte": "https://www.tuttofarma.it/sostitutivi-pasto-e-sazianti/231777-abound-neutro-30-bustine-da-193-g-senza-glutine-5099864021479.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-234-phelnaa-3",
+   "prodotto": "PHELNAA 3+",
+   "fonte": "https://www.tuttofarma.it/rimborsati-ssn/103274-phelnaa-3-30-buste-8052107200045.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2341-formulat-0",
+   "prodotto": "FORMULAT 0",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/89582-formulat-0-latte-liquido-per-neonati-3-confezioni-da-200ml-.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2359-nutrini",
+   "prodotto": "Nutrini",
+   "fonte": "https://www.tuttofarma.it/nutrizione-enterale/78218-nutrini-200-ml-8716900561931.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2369-glucerna-sr-220-ml-gusto-vaniglia",
+   "prodotto": "Glucerna SR - 220 ml - Gusto vaniglia",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/40300-glucerna-sr-vaniglia-220-ml-8710428996923.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-24-novasource-gi-balance-plus",
+   "prodotto": "NOVASOURCE GI BALANCE PLUS",
+   "fonte": "https://www.tuttofarma.it/nutrizione-enterale/112713-novasource-gi-balance-plus-500-ml-7613036644242.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-2428-fortimel-creme-vari-gusti",
    "prodotto": "Fortimel Creme vari gusti",
    "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/72204-nutricia-fortimel-creme-gusto-cioccolato-125g-4-pezzi-8716900569340.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2455-nutrison-advanced-cubison",
+   "prodotto": "Nutrison Advanced Cubison",
+   "fonte": "https://www.tuttofarma.it/nutrizione-enterale/57468-nutrison-advanced-cubison-500-ml-8716900559730.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2460-pku-anamix-junior-gusto-cioccolato",
+   "prodotto": "PKU ANAMIX JUNIOR gusto cioccolato",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/232657-pku-anamix-junior-liquid-frutti-bosco-36-pezzi-5016533630961.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2496-ga1-anamix-infant",
+   "prodotto": "GA1 Anamix Infant",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/219376-ga1-anamix-infant-400-g-5016533655698.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2505-meritene-resource-diabet",
+   "prodotto": "MERITENE RESOURCE DIABET",
+   "fonte": "https://www.tuttofarma.it/integratori-per-il-controllo-della-glicemia/40128-meritene-resource-diabet-fragola-alimento-iperproteico-28-vitamine-e-minerali-200-ml-7613036605809.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2519-prosure-220-ml-500-ml-gusto-vaniglia",
+   "prodotto": "ProSure - 220 ml - 500 ml - Gusto vaniglia",
+   "fonte": "https://www.tuttofarma.it/sostituti-pasto/6912-prosure-integratore-iperproteico-220-ml-gusto-vaniglia-8710428001528.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2526-monogen",
+   "prodotto": "Monogen",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/147176-monogen-400-g-5016533635713.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-253-friliver",
+   "prodotto": "Friliver",
+   "fonte": "https://www.tuttofarma.it/prodotti-anticellulite-drenanti-e-depurativi/5045-friliver-integratore-funzionalita-epatica-20-buste.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2546-afenil-micro-3h",
+   "prodotto": "AFENIL MICRO 3H",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/192859-afenil-micro-3h-per-fenilchetonuria-e-iperfenilalaninemia-scatola-da-440-g-8032551580061.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2622-scandishake-gusto-neutro",
+   "prodotto": "Scandishake gusto neutro",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/120121-scandishake-cioccolato-6-bustine-4008976595373.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2629-mct-oil",
+   "prodotto": "MCT Oil",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/67277-mct-oil-module-500-ml-bottiglia-plastica-8716900591792.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-27-sineamin-i-sorrisi",
+   "prodotto": "Sineamin i sorrisi",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/108296-sineamin-i-sorrisi-500-g-8032551581136.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2715-supportan-drink-vari-gusti",
+   "prodotto": "SUPPORTAN DRINK VARI GUSTI",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/136157-supportan-drink-cappuccino-4-flaconi-x-200-ml-4051895042213.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2753-pku-2-prima",
+   "prodotto": "PKU 2 PRIMA",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/230215-pku-2-prima-500-g-5016533649536.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2812-afenil-medi-15-neutro",
+   "prodotto": "Afenil Medi 15 Neutro",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/139677-afenil-medi-15-arancia-30-bustine-8032551580122.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-29-prenidina-post",
+   "prodotto": "PreNIDINA POST",
+   "fonte": "https://www.tuttofarma.it/latte-per-neonati/194146-prenidina-post-12-bottiglie-da-200-ml-8445292109628.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-29-ulk-db-gusto-cacao-ulk-db-gusto-neutro",
+   "prodotto": "ULK DB Gusto cacao ULK DB Gusto neutro",
+   "fonte": "https://dmffoodar.it/prodotto/ulk-db/",
    "stato": "ok"
   },
   {
@@ -374,15 +1970,159 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-297-milupa-pku-1",
+   "prodotto": "Milupa PKU 1",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/219375-pku-1-500-g-milupa-5016533644418.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-2986-pku-3-advanta",
+   "prodotto": "PKU 3 ADVANTA",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/228307-pku-3-advanta-500-g-5016533649116.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-30-afenil-lime",
+   "prodotto": "Afenil Lime",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/194838-afenil-lime-30-bustine-14-g-8032551581167.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-30-ulk-db-gusto-vaniglia",
+   "prodotto": "ULK DB Gusto vaniglia",
+   "fonte": "https://dmffoodar.it/prodotto/ulk-db/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-3074-loprofin-panfette",
+   "prodotto": "Loprofin Panfette",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/42581-loprofin-panfette-fette-biscottate-300-g-5016533629378.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-309-hydroxiram",
+   "prodotto": "HYDROXIRAM",
+   "fonte": "https://errekappa.it/prodotti/hydroxiram/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-3093-prother",
+   "prodotto": "PROTHER",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-contrastare-perdita-di-peso-e-massa-muscolare/84025-prother-15-bustine-20-g-8033447498033.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-311-basic-f",
+   "prodotto": "Basic F",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/72558-basic-f-300-g-4008976593362.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-3146-giusto-aproteico-fondo-precotto-per-pizza",
+   "prodotto": "GIUSTO APROTEICO FONDO PRECOTTO PER PIZZA",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/3915-giuliani-giusto-fondo-precotto-per-pizza-aproteico-200g-8005297009349.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-32-maxamaid-xp2",
+   "prodotto": "MAXAMAID XP2",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/227779-maxamaid-xp2-polvere-500-g-5016533618129.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-321-dekas-plus-liquid",
+   "prodotto": "DEKAs Plus liquid",
+   "fonte": "https://www.tuttofarma.it/integratori-di-vitamine-e-minerali/123642-dekas-plus-liquid-60-ml.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-322-dekas-aqua-e",
+   "prodotto": "DEKAs Aqua-E",
+   "fonte": "https://www.tuttofarma.it/integratori-per-il-fegato-e-funzionalita-epatica/136566-dekas-aqua-e-60-ml.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-33-prenidina-post-liquido",
+   "prodotto": "PreNIDINA POST liquido",
+   "fonte": "https://www.tuttofarma.it/latte-per-neonati/194146-prenidina-post-12-bottiglie-da-200-ml-8445292109628.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-3431-aminofen",
+   "prodotto": "AMINOFEN",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/124608-aminofen-miscela-aminoacidi-500-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-36-nutramigen-lgg-2",
+   "prodotto": "NUTRAMIGEN LGG 2",
+   "fonte": "https://www.tuttofarma.it/latte-ipoallergenico-e-idrolisato-ha/65476-nutramigen-2-lgg-polvere-400-g.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-3881-delical-creme-dessert-hp-hc-la-floridine-vari-gu",
    "prodotto": "DELICAL CREME DESSERT HP HC LA FLORIDINE VARI GUSTI",
    "fonte": "https://dmffoodar.it/prodotto/delical-la-floridine/",
    "stato": "ok"
   },
   {
+   "chiave": "E-3907-bical",
+   "prodotto": "BiCal",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/157943-bical-2-barattoli-x-325-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-3910-nephea-infant",
+   "prodotto": "nephea Infant",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/228083-nephea-infant-400-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-40-nutramigen-lgg-1",
+   "prodotto": "Nutramigen LGG 1",
+   "fonte": "https://www.tuttofarma.it/latte-ipoallergenico-e-idrolisato-ha/65352-nutramigen-1-lgg-polvere-400-g-8712045039106.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-4036-lp-drink-cioccolato",
+   "prodotto": "LP-drink cioccolato",
+   "fonte": "https://www.tuttofarma.it/bevande-aproteiche/228002-lp-drink-400-g-nuova-formula-4008976593836.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-4140-fresubin-protein-energy-drink-gusto-cioccolato",
+   "prodotto": "FRESUBIN PROTEIN ENERGY DRINK GUSTO CIOCCOLATO",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/112769-fresubin-protein-energy-drink-vaniglia-4-x-200-ml-4051895049120.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-4508-my-snack-formaggioso-delicato",
+   "prodotto": "My Snack Formaggioso Delicato",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/77836-my-snack-formaggioso-delicato-200-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-464-nepro-hp-220-ml-vaniglia",
+   "prodotto": "Nepro HP - 220 ml - Vaniglia",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/6796-nepro-hp-vaniglia-integratore-per-pazienti-con-problemi-renali-220-ml-8710428002969.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-468-pediasure-250-ml-500-ml",
+   "prodotto": "PEDIASURE 250 ml - 500 ml",
+   "fonte": "https://www.tuttofarma.it/integratori-multivitaminici/80720-pediasure-crescitasviluppo-vaniglia-850-g-8710428022264.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-4816-acqua-gelificata-edulcorata-vari-gusti",
    "prodotto": "Acqua Gelificata Edulcorata vari gusti",
    "fonte": "https://www.tuttofarma.it/alimenti-dietetici/79914-acqua-gel-pack-acqua-gelificata-edulcorata-mela-12-x-125-ml-3701052000662.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-49-kanso-mctfiber",
+   "prodotto": "Kanso MCTfiber",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/122418-kanso-mctfiber-30-bustine-da-133-g-8008698030639.html",
    "stato": "ok"
   },
   {
@@ -398,9 +2138,39 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-5542-ketocal-3-1-gusto-neutro",
+   "prodotto": "Ketocal 3:1 gusto neutro",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/80954-ketocal-3-1-300-g-4008976671664.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-5558-dha-richoil-emulsione-concentrata",
+   "prodotto": "DHA RICHOIL EMULSIONE CONCENTRATA",
+   "fonte": "https://dmffoodar.it/prodotto/dha-richoil-emulsione-concentrata/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-5577-medigel",
+   "prodotto": "Medigel",
+   "fonte": "https://www.tuttofarma.it/cosmetici-per-il-corpo-non-testati-sugli-animali/57708-medigel-100-g-8032551581082.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-5596-acqua-gelificata-zuccherata-vari-gusti",
    "prodotto": "Acqua gelificata zuccherata vari gusti",
    "fonte": "https://www.tuttofarma.it/alimenti-dietetici/129656-acqua-gel-pack-acqua-gelificata-zuccherata-arancia-12-x-125-ml-3701052004493.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-56-aminotrofic-ne",
+   "prodotto": "AMINOTROFIC NE",
+   "fonte": "https://errekappa.it/prodotti/aminotrofic-ne/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-5676-resource-hp-hc",
+   "prodotto": "RESOURCE HP/HC",
+   "fonte": "https://www.tuttofarma.it/integratori-vari-e-monocomponenti/59179-resource-hp-hc-fragola-4-bottiglie-200-ml-7613032832278.html",
    "stato": "ok"
   },
   {
@@ -410,15 +2180,111 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-5794-abound-gusto-arancia",
+   "prodotto": "Abound - Gusto arancia",
+   "fonte": "https://www.tuttofarma.it/sostitutivi-pasto-e-sazianti/231777-abound-neutro-30-bustine-da-193-g-senza-glutine-5099864021479.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-58-alitraq",
+   "prodotto": "AlitraQ",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/148492-alitraq-integratore-proteico-gusto-vaniglia-6x76g-8427030005638.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-5966-lanaflex",
+   "prodotto": "Lanaflex",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/232594-lanaflex-arancia-40-bustine-0749735126431.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-60-fresubin-protein-energy-drink-gusto-fragola-di-b",
+   "prodotto": "FRESUBIN PROTEIN ENERGY DRINK GUSTO FRAGOLA DI BOSCO",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/112769-fresubin-protein-energy-drink-vaniglia-4-x-200-ml-4051895049120.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6037-nutridrink-compact-vari-gusti",
+   "prodotto": "Nutridrink Compact vari gusti",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-malnutrizione/54473-nutridrink-compact-caffe-integratore-energetico-4x125ml-8716900589102.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6051-oloprotein-h",
+   "prodotto": "Oloprotein H",
+   "fonte": "https://www.tuttofarma.it/proteine-in-polvere/81441-oloprotein-h-integratore-di-proteine-30-bustine.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-61-fresubin-protein-energy-drink-gusto-vaniglia",
+   "prodotto": "FRESUBIN PROTEIN ENERGY DRINK GUSTO VANIGLIA",
+   "fonte": "https://www.tuttofarma.it/dieta-proteica-alimenti-proteici/112769-fresubin-protein-energy-drink-vaniglia-4-x-200-ml-4051895049120.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6247-w-care-30-bustine-8-gr",
+   "prodotto": "w-care 30 bustine 8 gr",
+   "fonte": "https://www.tuttofarma.it/integratori-per-la-pelle/179312-w-care-14-buste-da-8-g.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-6334-nutilis-acqua-gel-vari-gusti",
    "prodotto": "Nutilis Acqua Gel vari gusti",
    "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
    "stato": "ok"
   },
   {
+   "chiave": "E-6351-salovum",
+   "prodotto": "Salovum",
+   "fonte": "https://www.tuttofarma.it/integratori-vari-e-monocomponenti/227970-salovum-25-buste-4-g-8032551580603.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6352-spc-flakes",
+   "prodotto": "SPC-FLAKES",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/63163-piam-spc-flakes-fiocchi-d-avena-per-fini-medico-speciali-450g-7350007011084.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-65-lp-drink",
+   "prodotto": "LP-drink",
+   "fonte": "https://www.tuttofarma.it/bevande-aproteiche/228002-lp-drink-400-g-nuova-formula-4008976593836.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6568-taranis-mix-farina-per-pane-e-pasticceria",
+   "prodotto": "TARANIS MIX FARINA PER PANE E PASTICCERIA",
+   "fonte": "https://www.tuttofarma.it/farine-aproteiche/226499-taranis-mix-farina-per-pane-e-pasticceria-1-kg-3551101426055.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6691-gel-m",
+   "prodotto": "GEL M",
+   "fonte": "https://shop.nutrisens.com/144-gel-m/",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-6695-gel-ami",
    "prodotto": "GEL AMI",
    "fonte": "https://www.tuttofarma.it/alimenti-dietetici/208648-gel-ami-addensante-neutro-barattolo-300-g-3701052000723.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6820-my-snack-schoxxi",
+   "prodotto": "My Snack Schoxxi",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/63680-my-snack-schoxxi-medaglie-cioccolato-180-g.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6823-nutrini-peptisorb",
+   "prodotto": "Nutrini Peptisorb",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/126183-nutrini-peptisorb-500-ml-bottiglia-collassabile-8716900574382.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-6916-pku-anamix-infant",
+   "prodotto": "PKU Anamix Infant",
+   "fonte": "https://www.tuttofarma.it/alimenti-aproteici/228379-pku-anamix-infant-400-g-5016533631951.html",
    "stato": "ok"
   },
   {
@@ -434,15 +2300,75 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-743-isosource-standard",
+   "prodotto": "ISOSOURCE STANDARD",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/47184-isosource-standard-neutro-500-ml-7613033052514.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-768-aproten-farina-aproteica",
+   "prodotto": "APROTEN FARINA APROTEICA",
+   "fonte": "https://www.tuttofarma.it/farine-aproteiche/4272-aproten-farina-dietetica-aproteica-500-grammi-8001040421222.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-80-preop",
+   "prodotto": "Preop",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/71054-preop-200-ml-x-4-pezzi-8716900557736.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8028-amino-frollini-latte-e-vaniglia",
+   "prodotto": "Aminò Frollini latte e vaniglia",
+   "fonte": "https://www.tuttofarma.it/biscotti-e-merendine-aproteici/135427-amino-i-frollini-latte-van200g-8015990841245.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8090-pku-anamix-first-spoon",
+   "prodotto": "PKU Anamix First Spoon",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/235973-pku-anamix-first-spoon-30-bustine-125-g-4008976595021.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-8287-resource-instant-protein",
    "prodotto": "RESOURCE INSTANT PROTEIN",
    "fonte": "https://www.nestlehealthscience.it/prodotti/resource/instant-protein",
    "stato": "ok"
   },
   {
+   "chiave": "E-83-kanso-lipano",
+   "prodotto": "Kanso Lipano",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/230563-kanso-lipano-500-g-8008698032022.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-8458-nutilis-clear",
    "prodotto": "Nutilis Clear",
    "fonte": "https://www.direct.nutricia.it/rest/files/2023/09/13/280729.pdf",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-86-nutrison-protein-intense",
+   "prodotto": "Nutrison Protein Intense",
+   "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia/nutrison-protein-intense",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8740-diasip-vari-gusti",
+   "prodotto": "Diasip vari gusti",
+   "fonte": "https://www.tuttofarma.it/integratori-per-il-controllo-della-glicemia/71396-diasip-fragola-200-ml-4-pezzi-8716900581199.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-88-formulat-pre-1",
+   "prodotto": "FORMULAT PRE 1",
+   "fonte": "https://www.tuttofarma.it/latte-dalla-nascita/69763-formulat-pre-1-3-brik-200-ml.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-8883-am-plus-clear",
+   "prodotto": "AM PLUS CLEAR",
+   "fonte": "https://dmffoodar.it/prodotto/am-plus-clear-2/",
    "stato": "ok"
   },
   {
@@ -458,15 +2384,489 @@
    "stato": "ok"
   },
   {
+   "chiave": "E-92-fantomalt",
+   "prodotto": "Fantomalt",
+   "fonte": "https://www.nutricia.it/prodotti/fantomalt/",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9239-dicodral",
+   "prodotto": "DICODRAL",
+   "fonte": "https://www.tuttofarma.it/prodotti-per-diarrea/121424-dicodral-12-bustine-8033300199633.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-93-nutilis",
    "prodotto": "Nutilis",
    "fonte": "https://www.nutricia.com/products/stroke-and-dysphagia",
    "stato": "ok"
   },
   {
+   "chiave": "E-9400-kanso-mct-oil-100-mct",
+   "prodotto": "Kanso MCT Oil 100% MCT",
+   "fonte": "https://www.tuttofarma.it/alimenti-chetogenici-e-low-carb/222185-kanso-mct-oil-100-30-bustine-da-6-g-8008698035405.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-97-galactomin-19-formula",
+   "prodotto": "Galactomin 19 formula",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/68024-galactomin-19-400-g-5016533635379.html",
+   "stato": "ok"
+  },
+  {
    "chiave": "E-9757-nutilis-fruit-stage-3-vari-gusti",
    "prodotto": "Nutilis Fruit Stage 3 vari gusti",
    "fonte": "https://farmaciaigea.com/nutricia-nutilis-fruit-stage-3-alimento-ai-fini-medici-speciali-per-disfagia-gusto-mela-3-x-150-g",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9780-ga-2-prima",
+   "prodotto": "GA 2 Prima",
+   "fonte": "https://www.tuttofarma.it/alimenti-dietetici/216969-ga-2-prima-500-g-5016533649451.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9790-nutrini-energy",
+   "prodotto": "Nutrini Energy",
+   "fonte": "https://www.tuttofarma.it/alimenti-per-bambini/80518-nutrini-peptisorb-energy-500-ml-bottiglia-collassabile-8716900574429.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9792-nutrison",
+   "prodotto": "Nutrison",
+   "fonte": "https://www.nutricia.com/products/oncology/nutrison-range",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9815-milupa-ucd-1",
+   "prodotto": "Milupa UCD 1",
+   "fonte": "https://www.tuttofarma.it/alimenti-fini-medici-speciali/235972-ucd-1-450-g-milupa-5016533655278.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9956-aproten-sfilatini-aproteici",
+   "prodotto": "APROTEN SFILATINI APROTEICI",
+   "fonte": "https://www.tuttofarma.it/pane-e-pasta-aproteici/4280-aproten-sfilatini-soffici-aproteici-150-grammi-8001040415627.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9996-prereid-bustine",
+   "prodotto": "PREREID bustine",
+   "fonte": "https://www.tuttofarma.it/elettroliti-e-sali-reidratanti/59417-prereid-liquido-250-ml-6-pezzi.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "E-9997-prereid-liquido",
+   "prodotto": "PREREID liquido",
+   "fonte": "https://www.tuttofarma.it/elettroliti-e-sali-reidratanti/59417-prereid-liquido-250-ml-6-pezzi.html",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-007518",
+   "prodotto": "Dekamin",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/196/farmaci/007518/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-020580",
+   "prodotto": "Isopuramin",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/020580/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-022748",
+   "prodotto": "Freamine Iii",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/022748/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-026905",
+   "prodotto": "Primene",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/026905/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-027485",
+   "prodotto": "Lipofundin Mct",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/027485/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-027983",
+   "prodotto": "Vitalipid",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/027983/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-027984",
+   "prodotto": "Soluvit",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/027984/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029165",
+   "prodotto": "Siframin",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/029165/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029169",
+   "prodotto": "Sintamin",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/029169/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029189",
+   "prodotto": "Tph",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/029189/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029358",
+   "prodotto": "Isoren",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/029358/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029361",
+   "prodotto": "Isoram",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/029361/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029362",
+   "prodotto": "Isoselect",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/029362/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029413",
+   "prodotto": "Aminoacidi E Bioindustria L.I.M.",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/823/farmaci/029413/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029414",
+   "prodotto": "Aminoacidi Cr Bioindustria L.I.M.",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/823/farmaci/029414/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029428",
+   "prodotto": "Aminoacidi Essenziali E Non Essenziali Galenica Senese",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/4945/farmaci/029428/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029429",
+   "prodotto": "Aminoacidi Essenziali Galenica Senese",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/4945/farmaci/029429/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029430",
+   "prodotto": "Aminoacidi Selettivi Galenica Senese",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/4945/farmaci/029430/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029431",
+   "prodotto": "Aminoacidi A Catena Ramificata",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/4945/farmaci/029431/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-029863",
+   "prodotto": "Glucosio Galenica Senese",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/4945/farmaci/029863/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-030672",
+   "prodotto": "Glucosio S.A.L.F.",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/141/farmaci/030672/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-030769",
+   "prodotto": "Glucosio Fki",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/030769/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-030793",
+   "prodotto": "Glucosio Monico",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/196/farmaci/030793/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-030899",
+   "prodotto": "Glucosio B. Braun",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/030899/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-030923",
+   "prodotto": "Glucosio Baxter S.P.A.",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/030923/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-031055",
+   "prodotto": "Glucosio Bioindustria L.I.M",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/823/farmaci/031055/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-031181",
+   "prodotto": "Glucosio Bioindustria L.I.M..",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/823/farmaci/031181/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-031943",
+   "prodotto": "Glucosio Fki",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/031943/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-032105",
+   "prodotto": "Glamin",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/032105/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-032167",
+   "prodotto": "Clinimix",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/032167/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-032183",
+   "prodotto": "Glucosio Eurospital",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/221/farmaci/032183/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-032387",
+   "prodotto": "Glucosio Bioindustria L.I.M.",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/823/farmaci/032387/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-032390",
+   "prodotto": "Glucosio Baxter S.P.A.",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/032390/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-033443",
+   "prodotto": "Clinoleic",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/033443/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-033851",
+   "prodotto": "Glucosio Diaco",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/4003/farmaci/033851/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-034382",
+   "prodotto": "Kabiven",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/034382/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-034557",
+   "prodotto": "Aminoacidi A Catena Ramificata Monico",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/196/farmaci/034557/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-034562",
+   "prodotto": "Aminoven",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/034562/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-035508",
+   "prodotto": "Periven",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/035508/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-035694",
+   "prodotto": "Plusflex",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/035694/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-035695",
+   "prodotto": "Basalflex",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/035695/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-035696",
+   "prodotto": "Periflex",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/035696/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-035697",
+   "prodotto": "Specialflex",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/035697/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-035714",
+   "prodotto": "Glucosio 5% Baxter",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/035714/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-036709",
+   "prodotto": "Glucosio Monico",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/196/farmaci/036709/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-036735",
+   "prodotto": "Lipidem",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/036735/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-037100",
+   "prodotto": "Amixal",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/037100/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-037135",
+   "prodotto": "Smoflipid",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/037135/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-038127",
+   "prodotto": "Glucosio Fki",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/038127/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-038129",
+   "prodotto": "Glucosio Galenica Senese",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/4945/farmaci/038129/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-038702",
+   "prodotto": "Glucosio Fki",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/038702/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-039941",
+   "prodotto": "Olimel",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/039941/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-040258",
+   "prodotto": "Glucosio Baxter",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/040258/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-040416",
+   "prodotto": "Nutriplus Omega",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/040416/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-040716",
+   "prodotto": "Smofkabiven",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/040716/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-040774",
+   "prodotto": "Numeta",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/040774/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-041473",
+   "prodotto": "Perismofven",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/041473/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-041942",
+   "prodotto": "Amiped",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/041942/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-043568",
+   "prodotto": "Lipoflex",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/043568/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-043915",
+   "prodotto": "Omegaflex",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/043915/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-043916",
+   "prodotto": "Omegapro",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/043916/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-044404",
+   "prodotto": "Supplyelt",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2595/farmaci/044404/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-044490",
+   "prodotto": "Tracyelt",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2595/farmaci/044490/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-046516",
+   "prodotto": "Envitavit",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/718/farmaci/046516/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-047470",
+   "prodotto": "Finomel",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6515/farmaci/047470/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-048517",
+   "prodotto": "Duoperi",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/2829/farmaci/048517/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-052060",
+   "prodotto": "Icalziss",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/6258/farmaci/052060/stampati?ts=RCP",
+   "stato": "ok"
+  },
+  {
+   "chiave": "P-052406",
+   "prodotto": "Maapliv",
+   "fonte": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/1110/farmaci/052406/stampati?ts=RCP",
    "stato": "ok"
   }
  ]
